@@ -1,0 +1,9 @@
+D:\C#-Projects\Course-19\DVLD\Business\bin\Debug\Business.dll
+D:\C#-Projects\Course-19\DVLD\Business\bin\Debug\Business.pdb
+D:\C#-Projects\Course-19\DVLD\Business\bin\Debug\DataAccess.dll
+D:\C#-Projects\Course-19\DVLD\Business\bin\Debug\DataAccess.pdb
+D:\C#-Projects\Course-19\DVLD\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+D:\C#-Projects\Course-19\DVLD\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+D:\C#-Projects\Course-19\DVLD\Business\obj\Debug\Business.csproj.Up2Date
+D:\C#-Projects\Course-19\DVLD\Business\obj\Debug\Business.dll
+D:\C#-Projects\Course-19\DVLD\Business\obj\Debug\Business.pdb

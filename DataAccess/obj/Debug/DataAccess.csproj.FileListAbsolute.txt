@@ -1,0 +1,6 @@
+D:\C#-Projects\Course-19\DVLD\DataAccess\bin\Debug\DataAccess.dll
+D:\C#-Projects\Course-19\DVLD\DataAccess\bin\Debug\DataAccess.pdb
+D:\C#-Projects\Course-19\DVLD\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+D:\C#-Projects\Course-19\DVLD\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\C#-Projects\Course-19\DVLD\DataAccess\obj\Debug\DataAccess.dll
+D:\C#-Projects\Course-19\DVLD\DataAccess\obj\Debug\DataAccess.pdb

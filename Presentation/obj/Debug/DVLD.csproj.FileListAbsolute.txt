@@ -1,0 +1,17 @@
+D:\C#-Projects\Course-19\DVLD\DVLD\bin\Debug\DVLD.exe.config
+D:\C#-Projects\Course-19\DVLD\DVLD\bin\Debug\DVLD.exe
+D:\C#-Projects\Course-19\DVLD\DVLD\bin\Debug\DVLD.pdb
+D:\C#-Projects\Course-19\DVLD\DVLD\obj\Debug\DVLD.csproj.AssemblyReference.cache
+D:\C#-Projects\Course-19\DVLD\DVLD\obj\Debug\DVLD.Properties.Resources.resources
+D:\C#-Projects\Course-19\DVLD\DVLD\obj\Debug\DVLD.csproj.GenerateResource.cache
+D:\C#-Projects\Course-19\DVLD\DVLD\obj\Debug\DVLD.csproj.CoreCompileInputs.cache
+D:\C#-Projects\Course-19\DVLD\DVLD\obj\Debug\DVLD.exe
+D:\C#-Projects\Course-19\DVLD\DVLD\obj\Debug\DVLD.pdb
+D:\C#-Projects\Course-19\DVLD\DVLD\obj\Debug\DVLD.exe.config
+D:\C#-Projects\Course-19\DVLD\DVLD\obj\Debug\DVLD.frmMainMenue.resources
+D:\C#-Projects\Course-19\DVLD\DVLD\bin\Debug\Business.dll
+D:\C#-Projects\Course-19\DVLD\DVLD\bin\Debug\DataAccess.dll
+D:\C#-Projects\Course-19\DVLD\DVLD\bin\Debug\Business.pdb
+D:\C#-Projects\Course-19\DVLD\DVLD\bin\Debug\DataAccess.pdb
+D:\C#-Projects\Course-19\DVLD\DVLD\obj\Debug\DVLD.frmManagePeople.resources
+D:\C#-Projects\Course-19\DVLD\DVLD\obj\Debug\DVLD.csproj.Up2Date

@@ -24,11 +24,13 @@ namespace DVLD
             lblTotalPeople.Text = "# Records: " + dgvPeople.DisplayedRowCount(false).ToString();
 
         }
+
         private void frmManagePeople_Load(object sender, EventArgs e)
         {
             _refreshPeopleDataGrid();
             cmbFilterBy.SelectedIndex = 0;
         }
+
         private void cmbFilterBy_SelectedIndexChanged(object sender, EventArgs e)
         {
             tbFilterBy.Text = "";
@@ -102,5 +104,13 @@ namespace DVLD
 
             }
         }
+
+        private void btnAddNewPerson_Click(object sender, EventArgs e)
+        {
+            frmAddUpdatePerson frm = new frmAddUpdatePerson();
+            frm.ShowDialog();
+        }
+
+  
     }
 }

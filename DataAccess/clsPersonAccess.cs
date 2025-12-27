@@ -56,8 +56,17 @@ namespace DataAccess
 
             DataTable dt = new DataTable();
             //if the filtering text is empty return all people
-            if (value == "")
+            if (string.IsNullOrWhiteSpace(value) || string.IsNullOrWhiteSpace(columnName))
                 return getAllPeople();
+            if (columnName.ToLower()=="gendor")
+            {
+                if (value.ToLower() == "male")
+                    value = "0";
+                else if (value.ToLower() == "female")
+                    value = "1";
+                else
+                    return dt;
+                }
 
             SqlConnection connection = new SqlConnection(clsDataAccessSettings.connectionString);
             string query;

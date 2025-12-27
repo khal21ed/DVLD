@@ -1,0 +1,21 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache
+*.cache
+*.log
+
+# Test results
+TestResults/
+
+# Rider / ReSharper
+_ReSharper*/
+*.DotSettings.user

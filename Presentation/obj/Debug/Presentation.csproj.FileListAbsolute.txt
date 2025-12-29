@@ -17,3 +17,4 @@ D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.exe
 D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.pdb
 D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.ctrlAddUpdatePerson.resources
 D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.frmAddUpdatePerson.resources
+D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.frmTest.resources

@@ -36,14 +36,14 @@
             // 
             this.ctrlAddUpdatePerson1.Location = new System.Drawing.Point(2, 22);
             this.ctrlAddUpdatePerson1.Name = "ctrlAddUpdatePerson1";
-            this.ctrlAddUpdatePerson1.Size = new System.Drawing.Size(956, 398);
+            this.ctrlAddUpdatePerson1.Size = new System.Drawing.Size(929, 394);
             this.ctrlAddUpdatePerson1.TabIndex = 0;
             // 
             // frmAddUpdatePerson
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(959, 459);
+            this.ClientSize = new System.Drawing.Size(976, 502);
             this.Controls.Add(this.ctrlAddUpdatePerson1);
             this.Name = "frmAddUpdatePerson";
             this.Text = "frmAddUpdatePerson";

@@ -12,9 +12,16 @@ namespace DVLD
 {
     public partial class frmAddUpdatePerson : Form
     {
-        public frmAddUpdatePerson()
+        private int _personId=-1;
+        public frmAddUpdatePerson(int ID)
         {
             InitializeComponent();
+            _personId = ID;
+        }
+
+        private void frmAddUpdatePerson_Load(object sender, EventArgs e)
+        {
+            ctrlAddUpdatePerson1.LoadControlWithPersonInfo(_personId);
         }
     }
 }

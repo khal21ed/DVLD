@@ -42,6 +42,7 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.ctrlAddUpdatePerson1 = new DVLD.ctrlAddUpdatePerson();
             this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
@@ -138,7 +139,7 @@
             // 
             // ctrlAddUpdatePerson1
             // 
-            this.ctrlAddUpdatePerson1.Location = new System.Drawing.Point(0, -45);
+            this.ctrlAddUpdatePerson1.Location = new System.Drawing.Point(56, 4);
             this.ctrlAddUpdatePerson1.Name = "ctrlAddUpdatePerson1";
             this.ctrlAddUpdatePerson1.Size = new System.Drawing.Size(908, 454);
             this.ctrlAddUpdatePerson1.TabIndex = 10;
@@ -153,11 +154,22 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(555, 513);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 12;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // frmTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1233, 583);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.ctrlAddUpdatePerson1);
             this.Controls.Add(this.linkLabel1);
@@ -193,5 +205,6 @@
         private System.Windows.Forms.BindingSource bindingSource1;
         private ctrlAddUpdatePerson ctrlAddUpdatePerson1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }

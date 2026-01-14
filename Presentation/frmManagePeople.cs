@@ -24,13 +24,11 @@ namespace DVLD
             lblTotalPeople.Text = "# Records: " + dgvPeople.DisplayedRowCount(false).ToString();
 
         }
-
         private void frmManagePeople_Load(object sender, EventArgs e)
         {
             _refreshPeopleDataGrid();
             cmbFilterBy.SelectedIndex = 0;
         }
-
         private void cmbFilterBy_SelectedIndexChanged(object sender, EventArgs e)
         {
             tbFilterBy.Text = "";
@@ -54,41 +52,11 @@ namespace DVLD
             //    dgvPeople.DataSource = clsPerson.getAllPeople();
             //    return;
             //}
+            
+            string[] columnNames = { "None", "PersonID", "NationalNo", "FirstName", "SecondName",
+            "ThirdName","LastName","Gendor","CountryName","Phone","Email"};
 
-            string columnToSearchIn = "";
-            switch (cmbFilterBy.SelectedIndex)
-            {
-                case 1:
-                    columnToSearchIn = "PersonID";
-                    break;
-                case 2:
-                    columnToSearchIn = "NationalNo";
-                    break;
-                case 3:
-                    columnToSearchIn = "FirstName";
-                    break;
-                case 4:
-                    columnToSearchIn = "SecondName";
-                    break;
-                case 5:
-                    columnToSearchIn = "ThirdName";
-                    break;
-                case 6:
-                    columnToSearchIn = "LastName";
-                    break;
-                case 7:
-                    columnToSearchIn = "Gendor";
-                    break;
-                case 8:
-                    columnToSearchIn = "Nationality";
-                    break;
-                case 9:
-                    columnToSearchIn = "Phone";
-                    break;
-                case 10:
-                    columnToSearchIn = "Email";
-                    break;
-            }
+            string columnToSearchIn = columnNames[cmbFilterBy.SelectedIndex];
 
             dgvPeople.DataSource = clsPerson.getPeopleFilterdBy(columnToSearchIn, tbFilterBy.Text.ToString());
             lblTotalPeople.Text ="# Records: "+  dgvPeople.DisplayedRowCount(false).ToString();
@@ -101,16 +69,68 @@ namespace DVLD
                 {
                     e.Handled = true;
                 }
-
             }
         }
-
         private void btnAddNewPerson_Click(object sender, EventArgs e)
         {
-            frmAddUpdatePerson frm = new frmAddUpdatePerson();
+            frmAddUpdatePerson frm = new frmAddUpdatePerson(-1);
+            frm.ShowDialog();
+        }
+        private void showDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addNewPersonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            btnAddNewPerson_Click(sender, e);
+        }
+
+        private void editToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dgvPeople.SelectedRows.Count == 0) {
+                MessageBox.Show("No Record Was Selected.Please select a complete record not a single cell ",
+                    "Warning", MessageBoxButtons.OK,MessageBoxIcon.Error);
+                return;
+                    }
+
+            int personid = Convert.ToInt32(dgvPeople.SelectedRows[0].Cells["personid"].Value);
+            frmAddUpdatePerson frm = new frmAddUpdatePerson(personid);
             frm.ShowDialog();
         }
 
-  
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (dgvPeople.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("No Record Was Selected.Please select a complete record not a single cell ",
+                    "Warning", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            int personid = Convert.ToInt32(dgvPeople.SelectedRows[0].Cells["personid"].Value);
+
+            try
+            {
+                clsPerson.DeletePerson(personid);
+
+                MessageBox.Show(
+                    "Person deleted successfully.",
+                    "Success",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information
+                );
+            }
+            catch (Exception)
+            {
+                MessageBox.Show(
+                    "An unexpected error occurred.",
+                    "Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error
+                );
+            }
+            _refreshPeopleDataGrid();
+
+        }
     }
 }

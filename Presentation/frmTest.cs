@@ -51,5 +51,10 @@ namespace DVLD
         {
             
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ctrlAddUpdatePerson1.LoadControlWithPersonInfo(2036);
+        }
     }
 }

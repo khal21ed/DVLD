@@ -15,12 +15,12 @@ namespace DVLD
 {
     public partial class ctrlAddUpdatePerson : UserControl
     {
-        private clsPerson person = new clsPerson();
+        private clsPerson _person;
         public ctrlAddUpdatePerson()
         {
             InitializeComponent();
+            _person = new clsPerson();
         }
-
         private bool _AreRequiredFieldsFilled()
         {
             if(string.IsNullOrEmpty(txtFirstName.Text)||string.IsNullOrEmpty(txtSecondName.Text)||
@@ -30,25 +30,89 @@ namespace DVLD
 
             return true;
         }
+        public void LoadControlWithPersonInfo(int ID)
+        {
+            if (ID == -1)
+                return;
 
+            _person=clsPerson.FindPersonByID(ID);
+            if (_person == null)//the given ID might not exist
+                return;
+
+            lblPerosnID.Text = _person.Id.ToString();
+            txtFirstName.Text = _person.FirstName;
+            txtSecondName.Text = _person.SecondName;
+            txtThirdName.Text = _person.ThirdName;
+            txtLastName.Text = _person.LastName;
+            txtNationalNo.Text = _person.NationalNo;
+            dtpDateOfBirth.Value = _person.DateOfBirth;
+            txtEmail.Text = _person.Email;
+            txtAddress.Text = _person.Address;  
+            txtPhone.Text = _person.Phone;
+            cbCountry.SelectedIndex = _person.Country;
+
+            if (_person.Gender == clsPerson.enGender.Male)
+                rbMale.Checked = true;
+            else
+                rbFemale.Checked = true;
+
+            if (!string.IsNullOrWhiteSpace(_person.ImagePath))
+            {
+                pbPersonPicture.ImageLocation = _person.ImagePath;
+                pbPersonPicture.Image = Image.FromFile(_person.ImagePath);
+                pbPersonPicture.Tag = "Other";
+            }
+            else 
+            {
+                _PickDefaultFemaleOrMalePic();
+            }
+        }
+        private void _PickDefaultFemaleOrMalePic()
+        {
+            if (pbPersonPicture.Tag.ToString().ToLower() == "other" )
+                return;
+
+            if (rbMale.Checked)
+            {
+                pbPersonPicture.Image = Resources.person_man;
+                pbPersonPicture.Tag = "man";
+            }
+            else if (rbFemale.Checked)
+            {
+                pbPersonPicture.Image = Resources.person_woman;
+                pbPersonPicture.Tag = "woman";
+            }
+        }
         private void _SavePerson()
         {
-            person.NationalNo=txtNationalNo.Text;
-           person.FirstName = txtFirstName.Text;
-            person.SecondName = txtSecondName.Text;
-            person.ThirdName= txtThirdName.Text;
-            person.LastName = txtLastName.Text;
-            person.DateOfBirth=dtpDateOfBirth.Value;
-            person.Phone = txtPhone.Text;
+            _person.NationalNo=txtNationalNo.Text;
+            _person.FirstName = txtFirstName.Text;
+            _person.SecondName = txtSecondName.Text;
+            _person.ThirdName= txtThirdName.Text;
+            _person.LastName = txtLastName.Text;
+            _person.DateOfBirth=dtpDateOfBirth.Value;
+            _person.Phone = txtPhone.Text;
             if (rbFemale.Checked)
-                person.Gender = clsPerson.enGender.Female;
+                _person.Gender = clsPerson.enGender.Female;
             else
-                person.Gender=clsPerson.enGender.Female;
-            person.Address = txtAddress.Text;
-            person.Email = txtEmail.Text;
-            person.Country=clsCountry.findCountryByName(cbCountry.Text);
+                _person.Gender = clsPerson.enGender.Male;
+            _person.Address = txtAddress.Text;
+            _person.Email = txtEmail.Text;
+            _person.Country=clsCountry.findCountryByName(cbCountry.Text);
+            _person.ImagePath = pbPersonPicture.ImageLocation;
 
+            if (_person.Save())
+            {
+                MessageBox.Show("Person Saved Successfully", "Successful",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                lblPerosnID.Text = _person.Id.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Error Occured", "Failed", 
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
 
+            }
         }
         private bool _IsValidEmail(string email)
         {
@@ -68,12 +132,21 @@ namespace DVLD
                 cbCountry.Items.Add(row["CountryName"]);
             }
         }
+        private void txtPhone_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+                e.Handled = true;
+        }
         private void txtFirstName_Validating(object sender, CancelEventArgs e)
         {
             if (string.IsNullOrEmpty(txtFirstName.Text))
             {
                 e.Cancel = true;
                 erpValidateInput.SetError(txtFirstName, "First Name should not be empty");
+            }
+            else
+            {
+                erpValidateInput.SetError(txtFirstName, "");
             }
         }
         private void txtSecondName_Validating(object sender, CancelEventArgs e)
@@ -83,6 +156,10 @@ namespace DVLD
                 e.Cancel = true;
                 erpValidateInput.SetError(txtSecondName, "Second Name should not be empty");
             }
+            else
+            {
+                erpValidateInput.SetError(txtSecondName, "");
+            }
         }
         private void txtLastName_Validating(object sender, CancelEventArgs e)
         {
@@ -91,19 +168,27 @@ namespace DVLD
                 e.Cancel = true;
                 erpValidateInput.SetError(txtLastName, "Last Name should not be empty");
             }
+            else
+            {
+                erpValidateInput.SetError(txtLastName, "");
+            }
         }
         private void txtNationalNo_Validating(object sender, CancelEventArgs e)
         {
-            if(clsPerson.PersonExistsByNationalNo(txtNationalNo.Text))
-            {
-                e.Cancel = true;
-                erpValidateInput.SetError(txtNationalNo, $"National number {txtNationalNo.Text} already exists");
-            }
-
+          
             if (string.IsNullOrEmpty(txtNationalNo.Text))
             {
                 e.Cancel = true;
                 erpValidateInput.SetError(txtNationalNo, "National Number should not be empty");
+            }
+            else if (clsPerson.PersonExistsByNationalNo(txtNationalNo.Text))
+            {
+                e.Cancel = true;
+                erpValidateInput.SetError(txtNationalNo, $"National number {txtNationalNo.Text} already exists");
+            }
+            else
+            {
+                erpValidateInput.SetError(txtNationalNo, "");
             }
         }
         private void txtPhone_Validating(object sender, CancelEventArgs e)
@@ -113,33 +198,30 @@ namespace DVLD
                 e.Cancel = true;
                 erpValidateInput.SetError(txtPhone, "Phone Number should not be empty");
             }
+            else
+            {
+                erpValidateInput.SetError(txtPhone, "");
+            }
         }
         private void rbMale_CheckedChanged(object sender, EventArgs e)
         {
-            if (pbPersonPicture.Tag.ToString() != "man" && pbPersonPicture.Tag.ToString() != "woman")
-                return;
-
-            if (rbMale.Checked)
-            {
-                pbPersonPicture.Image = Resources.person_man;
-                pbPersonPicture.Tag = "man";
-            }
-            else if (rbFemale.Checked)
-            {
-                pbPersonPicture.Image = Resources.person_woman;
-                pbPersonPicture.Tag = "woman";
-            }
+            _PickDefaultFemaleOrMalePic();
         }
         private void txtEmail_Validating(object sender, CancelEventArgs e)
         {
-            if (txtEmail.Text.Length > 0)
+            if (!string.IsNullOrWhiteSpace( txtEmail.Text) )
             {
                 if (!_IsValidEmail(txtEmail.Text))
                 {                  
                         e.Cancel = true;
                         erpValidateInput.SetError(txtEmail, "Not a valid email format");              
                 }
+                else
+                {
+                    erpValidateInput.SetError(txtEmail, "");
+                }
             }
+           
         }
         private void txtAddress_Validating(object sender, CancelEventArgs e)
         {
@@ -148,14 +230,17 @@ namespace DVLD
                 e.Cancel = true;
                 erpValidateInput.SetError(txtAddress, "Address should not be empty");
             }
+            else
+            {
+                erpValidateInput.SetError(txtAddress, "");
+            }
+            
         }
         private void ctrlAddUpdatePerson_Load(object sender, EventArgs e)
         {
-            
             dtpDateOfBirth.MaxDate = DateTime.Today.AddYears(-18);
             _LoadCountriesIntoComboBox();
             cbCountry.SelectedIndex = cbCountry.FindString("jordan");
-
         }
         private void llSetPersonImage_Click(object sender, EventArgs e)
         {
@@ -167,15 +252,31 @@ namespace DVLD
 
             if(ofdSetPersonImage.ShowDialog() == DialogResult.OK)
             {
+                pbPersonPicture.ImageLocation = ofdSetPersonImage.FileName;
                 pbPersonPicture.Image=Image.FromFile(ofdSetPersonImage.FileName);
+                
                 pbPersonPicture.Tag = "Other";
             }
         }
-
         private void btnSave_Click(object sender, EventArgs e)
         {
             if (!_AreRequiredFieldsFilled())
-                MessageBox.Show("Please fill all the required fiealds"); 
+                MessageBox.Show("Please fill all the required fiealds", "Empty-required fields exist",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            else
+            {
+                _SavePerson();
+            }
         }
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Parent.Hide();
+        }
+        private void llRemovePersonImage_Click(object sender, EventArgs e)
+        {
+            pbPersonPicture.ImageLocation = null;
+            pbPersonPicture.Tag = "";
+            _PickDefaultFemaleOrMalePic();
+        } 
     }
 }

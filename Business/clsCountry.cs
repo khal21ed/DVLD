@@ -12,11 +12,16 @@ namespace Business
     {
         public static int findCountryByName(string countryName)
         {
-            return clsCountryData.findCountryByName(countryName);
+            return clsCountryData.FindCountryByName(countryName);
         }
         public static DataTable getAllCountryNames()
         {
-            return clsCountryData.getAllCountryNames();
+            return clsCountryData.GetAllCountryNames();
+        }
+
+        public static string FindCountryByID(int id)
+        {
+            return clsCountryData.FindCountryByCountryID(id)??"";
         }
     }
 }

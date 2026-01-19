@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -30,12 +31,18 @@ namespace DVLD
 
             return true;
         }
-        public void LoadControlWithPersonInfo(int ID)
+
+    
+        public  void LoadControlWithPersonInfo(int personId)
         {
-            if (ID == -1)
+            _LoadControlWithPersonInfo(personId);
+        }
+        private void _LoadControlWithPersonInfo(int personID)
+        {
+            if (personID == -1)
                 return;
 
-            _person=clsPerson.FindPersonByID(ID);
+            _person=clsPerson.FindPersonByID(personID);
             if (_person == null)//the given ID might not exist
                 return;
 
@@ -181,7 +188,7 @@ namespace DVLD
                 e.Cancel = true;
                 erpValidateInput.SetError(txtNationalNo, "National Number should not be empty");
             }
-            else if (clsPerson.PersonExistsByNationalNo(txtNationalNo.Text))
+            else if (clsPerson.PersonExistsByNationalNo(txtNationalNo.Text)&&_person.Mode==clsPerson.enMode.AddNew)
             {
                 e.Cancel = true;
                 erpValidateInput.SetError(txtNationalNo, $"National number {txtNationalNo.Text} already exists");
@@ -269,7 +276,7 @@ namespace DVLD
             }
         }
         private void btnClose_Click(object sender, EventArgs e)
-        {
+        { 
             this.Parent.Hide();
         }
         private void llRemovePersonImage_Click(object sender, EventArgs e)

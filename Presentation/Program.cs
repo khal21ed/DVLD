@@ -15,8 +15,25 @@ namespace DVLD
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false); 
-            Application.Run(new frmMainMenue());
+            Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new frmLogin());
+            //frmLogin loginForm = new frmLogin();
+            //frmMainMenue mainMenue = new frmMainMenue();
+            while (true)
+            {
+                using (frmLogin loginForm = new frmLogin())
+                {
+                    if (loginForm.ShowDialog() != DialogResult.OK)
+                        break;
+                }
+
+                using (frmMainMenue mainMenue = new frmMainMenue())
+                {
+                    if (mainMenue.ShowDialog() != DialogResult.Abort)
+                        break;
+                }
+            }
+            
         }
     }
 }

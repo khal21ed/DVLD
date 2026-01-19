@@ -24,8 +24,8 @@ namespace Business
             Update=1
         }
 
-        private enMode Mode;
-        public int Id { get; set; }
+        public enMode Mode { get; set; }
+        public int Id { get; private set; }
         public string NationalNo {  get; set; }
         public string FirstName { get; set; }
         public string SecondName {  get; set; }
@@ -38,6 +38,9 @@ namespace Business
         public DateTime DateOfBirth { get; set; }
         public int Country { get; set; }
         public string ImagePath {  get; set; }
+        public string FullName =>
+            string.Join(" ", new[] { FirstName, SecondName, ThirdName, LastName }
+            .Where(part => !string.IsNullOrWhiteSpace(part)));
 
         public clsPerson()
         {
@@ -86,11 +89,13 @@ namespace Business
             {
                 clsPerson personBeforeUpdating = FindPersonByID(this.Id);
 
-                if (string.IsNullOrEmpty(personBeforeUpdating.ImagePath)
-                || personBeforeUpdating.ImagePath == ImagePath)
-                    return;
-
-                File.Delete(personBeforeUpdating.ImagePath);
+                if (!string.IsNullOrEmpty(personBeforeUpdating.ImagePath))
+                {
+                    if (personBeforeUpdating.ImagePath != ImagePath)
+                        File.Delete(personBeforeUpdating.ImagePath);
+                    else//if the the image didn't change then leave the function
+                        return;
+                }
             }
 
             if (string.IsNullOrWhiteSpace(ImagePath))
@@ -127,7 +132,7 @@ namespace Business
             if (clsPersonData.GetPersonInfoByID(ID, ref nationalNumber, ref firstName, ref secondName, ref thirdName, ref lastName,
                 ref dateOfBirth, ref address, ref phone, ref gender, ref email, ref country, ref imagepath)) 
                 return (new clsPerson(ID,nationalNumber,firstName,secondName,thirdName,lastName, 
-                  email, address, phone, (enGender)gender, dateOfBirth, country, imagepath));
+                  email, phone, address, (enGender)gender, dateOfBirth, country, imagepath));
             return null;
         }
         private bool _AddNewPerson()

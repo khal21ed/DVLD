@@ -260,7 +260,6 @@ namespace DataAccess
             return false;
             
         }
-
         public static bool UpdatePerson(int ID,  string nationalNumber,  string firstName,  string secondName,  string thirdName,  string lastName,  DateTime dateOfBirth
             ,  string address,  string phone,  byte gender,  string email,  int country,  string imagepath)
         {

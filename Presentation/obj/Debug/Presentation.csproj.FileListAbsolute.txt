@@ -18,3 +18,10 @@ D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.pdb
 D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.ctrlAddUpdatePerson.resources
 D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.frmAddUpdatePerson.resources
 D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.frmTest.resources
+D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.ctrlShowPersonInfo.resources
+D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.frmShowPersonDetails.resources
+D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.frmMainMenue.dje-NE.resources
+D:\C#-Projects\Course-19\DVLD\Presentation\bin\Debug\dje-NE\DVLD.resources.dll
+D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\dje-NE\DVLD.resources.dll
+D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.frmLogin.resources
+D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.frmManageUsers.resources

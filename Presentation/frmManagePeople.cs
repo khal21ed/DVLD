@@ -24,10 +24,42 @@ namespace DVLD
             lblTotalPeople.Text = "# Records: " + dgvPeople.DisplayedRowCount(false).ToString();
 
         }
+
+        private bool _TryGetSelectedPersonId(out int personID)
+        {
+            personID= -1;
+            return dgvPeople.SelectedRows.Count > 0 &&
+                int.TryParse(dgvPeople.SelectedRows[0].Cells[0].Value.ToString(), out personID);
+
+        }
+        private bool _EnsurePersonSelected(out int personID)
+        {
+            if (!_TryGetSelectedPersonId(out personID))
+            {
+                MessageBox.Show(
+                    "No record was selected. Please select a complete row.",
+                    "Warning",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                );
+                return false;
+            }
+
+            return true;
+        }
         private void frmManagePeople_Load(object sender, EventArgs e)
         {
+
             _refreshPeopleDataGrid();
             cmbFilterBy.SelectedIndex = 0;
+            this.BackColor = Color.White;
+
+            dgvPeople.DefaultCellStyle.ForeColor = Color.Black;
+            dgvPeople.ColumnHeadersDefaultCellStyle.ForeColor = Color.Black;
+            dgvPeople.EnableHeadersVisualStyles = false;
+
+            lblTotalPeople.ForeColor = Color.Black;
+            lblFilterBy.ForeColor = Color.Black;
         }
         private void cmbFilterBy_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -46,12 +78,6 @@ namespace DVLD
         }
         private void tbFilterBy_TextChanged(object sender, EventArgs e)
         {
-            //already handeled in the DAL
-            //if (tbFilterBy.Text == "")
-            //{
-            //    dgvPeople.DataSource = clsPerson.getAllPeople();
-            //    return;
-            //}
             
             string[] columnNames = { "None", "PersonID", "NationalNo", "FirstName", "SecondName",
             "ThirdName","LastName","Gendor","CountryName","Phone","Email"};
@@ -75,10 +101,16 @@ namespace DVLD
         {
             frmAddUpdatePerson frm = new frmAddUpdatePerson(-1);
             frm.ShowDialog();
+            _refreshPeopleDataGrid();
         }
         private void showDetailsToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (!_EnsurePersonSelected(out int personID))
+                return;
 
+            frmShowPersonDetails frm = new frmShowPersonDetails(personID);
+            frm.ShowDialog();
+            _refreshPeopleDataGrid();       
         }
 
         private void addNewPersonToolStripMenuItem_Click(object sender, EventArgs e)
@@ -88,30 +120,23 @@ namespace DVLD
 
         private void editToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (dgvPeople.SelectedRows.Count == 0) {
-                MessageBox.Show("No Record Was Selected.Please select a complete record not a single cell ",
-                    "Warning", MessageBoxButtons.OK,MessageBoxIcon.Error);
+            if(!_EnsurePersonSelected(out int personID))
                 return;
-                    }
 
-            int personid = Convert.ToInt32(dgvPeople.SelectedRows[0].Cells["personid"].Value);
-            frmAddUpdatePerson frm = new frmAddUpdatePerson(personid);
+            frmAddUpdatePerson frm = new frmAddUpdatePerson(personID);
             frm.ShowDialog();
+            _refreshPeopleDataGrid();
+            
         }
 
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (dgvPeople.SelectedRows.Count == 0)
-            {
-                MessageBox.Show("No Record Was Selected.Please select a complete record not a single cell ",
-                    "Warning", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        if(!_EnsurePersonSelected(out int personID))
                 return;
-            }
-            int personid = Convert.ToInt32(dgvPeople.SelectedRows[0].Cells["personid"].Value);
 
             try
             {
-                clsPerson.DeletePerson(personid);
+                clsPerson.DeletePerson(personID);
 
                 MessageBox.Show(
                     "Person deleted successfully.",
@@ -119,17 +144,17 @@ namespace DVLD
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information
                 );
+                _refreshPeopleDataGrid();
             }
             catch (Exception)
             {
                 MessageBox.Show(
-                    "An unexpected error occurred.",
+                    "The Person couldn't be deleted because it has references in other tabels",
                     "Error",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error
                 );
             }
-            _refreshPeopleDataGrid();
 
         }
     }

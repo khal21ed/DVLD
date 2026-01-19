@@ -10,7 +10,7 @@ namespace DataAccess
 {
     public class clsCountryData
     {
-        public static int findCountryByName(string countryName)
+        public static int FindCountryByName(string countryName)
         {
             SqlConnection connection = new SqlConnection(clsDataAccessSettings.connectionString);
             int countryID = -1;
@@ -30,14 +30,40 @@ namespace DataAccess
                 }
                 
             }
-            catch (Exception ex) { }
+            catch (Exception ex) { throw; }
             finally
             {
                 connection.Close();   
             }
             return countryID;
         }
-        public static DataTable getAllCountryNames()
+
+        public static string FindCountryByCountryID(int countryID)
+        {
+            SqlConnection connection = new SqlConnection(clsDataAccessSettings.connectionString);
+
+            string query = @"select CountryName from Countries
+                            where CountryID=@CountryID";
+
+            SqlCommand cmd = new SqlCommand(query, connection);
+            cmd.Parameters.AddWithValue("@CountryID", countryID);
+            try
+            {
+                connection.Open();
+                object result = cmd.ExecuteScalar();
+
+                if (result != null)
+                {
+                    return result.ToString();
+                }
+            }
+
+            catch (Exception ex) { throw; }
+
+            finally { connection.Close(); }
+            return null;
+        }
+        public static DataTable GetAllCountryNames()
         {
             SqlConnection connection = new SqlConnection(clsDataAccessSettings.connectionString);
             DataTable dt = new DataTable();

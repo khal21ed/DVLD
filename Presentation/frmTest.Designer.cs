@@ -31,8 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.ctrlAddUpdateUser2 = new DVLD.ctrlAddUpdateUser();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
@@ -42,52 +41,43 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // textBox1
+            // ctrlAddUpdateUser2
             // 
-            this.textBox1.Location = new System.Drawing.Point(261, 52);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(261, 93);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
+            this.ctrlAddUpdateUser2.Location = new System.Drawing.Point(43, 12);
+            this.ctrlAddUpdateUser2.Name = "ctrlAddUpdateUser2";
+            this.ctrlAddUpdateUser2.Size = new System.Drawing.Size(715, 420);
+            this.ctrlAddUpdateUser2.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(436, 90);
+            this.button1.Location = new System.Drawing.Point(494, 472);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
+            this.button1.TabIndex = 1;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(853, 408);
+            this.ClientSize = new System.Drawing.Size(911, 541);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.ctrlAddUpdateUser2);
             this.Name = "frmTest";
             this.Text = "frmTest";
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.BindingSource bindingSource1;
+        private ctrlPersonPicker ctrlAddUpdateUser1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private ctrlAddUpdateUser ctrlAddUpdateUser2;
     }
 }

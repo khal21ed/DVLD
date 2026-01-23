@@ -25,3 +25,11 @@ D:\C#-Projects\Course-19\DVLD\Presentation\bin\Debug\dje-NE\DVLD.resources.dll
 D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\dje-NE\DVLD.resources.dll
 D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.frmLogin.resources
 D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.frmManageUsers.resources
+D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.ctrlPersonPicker.resources
+D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.ctrlAddUpdateUser.resources
+D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.frmAddUpdateUser.resources
+D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.ctrlUserInfo.resources
+D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.frmShowUserInfo.resources
+D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.frmChangeUserPassword.resources
+D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.frmApplicationTypes.resources
+D:\C#-Projects\Course-19\DVLD\Presentation\obj\Debug\DVLD.frmUpdateApplicationType.resources

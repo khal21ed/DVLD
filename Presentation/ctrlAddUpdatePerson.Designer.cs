@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ctrlAddUpdatePerson));
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -74,6 +73,7 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.lblPerosnID = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.lblTitle = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.erpValidateInput)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPersonPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -87,18 +87,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(359, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(231, 31);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Add New Person";
             // 
             // label2
             // 
@@ -517,6 +505,18 @@
             this.pictureBox10.TabIndex = 43;
             this.pictureBox10.TabStop = false;
             // 
+            // lblTitle
+            // 
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.Color.Red;
+            this.lblTitle.Location = new System.Drawing.Point(359, 18);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(231, 31);
+            this.lblTitle.TabIndex = 0;
+            this.lblTitle.Text = "Add New Person";
+            // 
             // ctrlAddUpdatePerson
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -562,7 +562,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblTitle);
             this.Name = "ctrlAddUpdatePerson";
             this.Size = new System.Drawing.Size(943, 487);
             this.Load += new System.EventHandler(this.ctrlAddUpdatePerson_Load);
@@ -584,8 +584,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -629,5 +627,6 @@
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Label lblPerosnID;
         private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.Label lblTitle;
     }
 }

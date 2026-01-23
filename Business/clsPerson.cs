@@ -124,6 +124,15 @@ namespace Business
         {
             return clsPersonData.PersonExistsByNationalNo(nationalNo);
         }
+        public static bool PersonExistsByPersonID(int personID)
+        {
+            return clsPersonData.PersonExistByPersonID(personID);
+        }
+
+        public static int GetPersonIDByNationalNo(string nationalNo)
+        {
+           return clsPersonData.GetPersonIDByNationalNo(nationalNo);
+        }
         public static clsPerson FindPersonByID(int ID)
         {
             string nationalNumber = ""; string firstName = ""; string secondName = ""; string thirdName = ""; string lastName = ""; DateTime dateOfBirth=DateTime.MinValue;

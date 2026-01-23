@@ -18,11 +18,23 @@ namespace DVLD
             InitializeComponent();
         }
 
-        private void _refreshPeopleDataGrid()
+        private void _RefreshPeopleDataGrid()
         {
             dgvPeople.DataSource = clsPerson.getAllPeople();
             lblTotalPeople.Text = "# Records: " + dgvPeople.DisplayedRowCount(false).ToString();
 
+        }
+
+        private void _InitalizeFormLayout()
+        {
+            this.BackColor = Color.White;
+
+            dgvPeople.DefaultCellStyle.ForeColor = Color.Black;
+            dgvPeople.ColumnHeadersDefaultCellStyle.ForeColor = Color.Black;
+            dgvPeople.EnableHeadersVisualStyles = false;
+
+            lblTotalPeople.ForeColor = Color.Black;
+            lblFilterBy.ForeColor = Color.Black;
         }
 
         private bool _TryGetSelectedPersonId(out int personID)
@@ -50,16 +62,9 @@ namespace DVLD
         private void frmManagePeople_Load(object sender, EventArgs e)
         {
 
-            _refreshPeopleDataGrid();
+            _RefreshPeopleDataGrid();
             cmbFilterBy.SelectedIndex = 0;
-            this.BackColor = Color.White;
-
-            dgvPeople.DefaultCellStyle.ForeColor = Color.Black;
-            dgvPeople.ColumnHeadersDefaultCellStyle.ForeColor = Color.Black;
-            dgvPeople.EnableHeadersVisualStyles = false;
-
-            lblTotalPeople.ForeColor = Color.Black;
-            lblFilterBy.ForeColor = Color.Black;
+            _InitalizeFormLayout();
         }
         private void cmbFilterBy_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -69,7 +74,7 @@ namespace DVLD
             if (cmbFilterBy.SelectedItem.ToString() == "None")
             {
                 tbFilterBy.Visible = false;
-                _refreshPeopleDataGrid();
+                _RefreshPeopleDataGrid();
             }
             else
             {
@@ -101,7 +106,7 @@ namespace DVLD
         {
             frmAddUpdatePerson frm = new frmAddUpdatePerson(-1);
             frm.ShowDialog();
-            _refreshPeopleDataGrid();
+            _RefreshPeopleDataGrid();
         }
         private void showDetailsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -110,14 +115,12 @@ namespace DVLD
 
             frmShowPersonDetails frm = new frmShowPersonDetails(personID);
             frm.ShowDialog();
-            _refreshPeopleDataGrid();       
+            _RefreshPeopleDataGrid();       
         }
-
         private void addNewPersonToolStripMenuItem_Click(object sender, EventArgs e)
         {
             btnAddNewPerson_Click(sender, e);
         }
-
         private void editToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if(!_EnsurePersonSelected(out int personID))
@@ -125,10 +128,9 @@ namespace DVLD
 
             frmAddUpdatePerson frm = new frmAddUpdatePerson(personID);
             frm.ShowDialog();
-            _refreshPeopleDataGrid();
+            _RefreshPeopleDataGrid();
             
         }
-
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
         if(!_EnsurePersonSelected(out int personID))
@@ -144,7 +146,7 @@ namespace DVLD
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information
                 );
-                _refreshPeopleDataGrid();
+                _RefreshPeopleDataGrid();
             }
             catch (Exception)
             {

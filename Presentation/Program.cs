@@ -16,7 +16,7 @@ namespace DVLD
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new frmLogin());
+            //Application.Run(new frmTest());
             //frmLogin loginForm = new frmLogin();
             //frmMainMenue mainMenue = new frmMainMenue();
             while (true)
@@ -33,7 +33,7 @@ namespace DVLD
                         break;
                 }
             }
-            
+
         }
     }
 }

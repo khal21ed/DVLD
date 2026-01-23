@@ -45,7 +45,7 @@ namespace DVLD
             _person=clsPerson.FindPersonByID(personID);
             if (_person == null)//the given ID might not exist
                 return;
-
+            lblTitle.Text = "Update Person";
             lblPerosnID.Text = _person.Id.ToString();
             txtFirstName.Text = _person.FirstName;
             txtSecondName.Text = _person.SecondName;
@@ -113,6 +113,7 @@ namespace DVLD
                 MessageBox.Show("Person Saved Successfully", "Successful",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                 lblPerosnID.Text = _person.Id.ToString();
+                lblTitle.Text = "Update Person";
             }
             else
             {

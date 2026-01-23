@@ -178,7 +178,27 @@ namespace DataAccess
             return personID;
 
         }
+        public static bool PersonExistByPersonID(int personID)
+        {
+            SqlConnection connection = new SqlConnection(clsDataAccessSettings.connectionString);
 
+            string query = "select found=1 from People where PersonID=@PersonID";
+            
+            SqlCommand cmd = new SqlCommand(query,connection);
+            cmd.Parameters.AddWithValue("@PersonID", personID);
+
+            try
+            {
+                connection.Open();
+                object result = cmd.ExecuteScalar();
+                if (result != null)
+                    return true;
+
+            }
+            catch (Exception ex) { throw; }
+            finally { connection.Close(); }
+            return false;
+        }
         public static bool PersonExistsByNationalNo(string nationalID)
         {
             if (string.IsNullOrEmpty(nationalID))
@@ -205,6 +225,30 @@ namespace DataAccess
             finally { connection.Close(); }
 
             return false;
+        }
+
+        public static int GetPersonIDByNationalNo(string nationalNo)
+        {
+
+            SqlConnection connection = new SqlConnection( clsDataAccessSettings.connectionString);
+            string query = "Select PersonID from People where NationalNo=@NationalNo";
+
+            SqlCommand cmd = new SqlCommand(query, connection);
+            cmd.Parameters.AddWithValue("@NationalNo", nationalNo);
+
+            try
+            {
+                connection.Open();
+                object result = cmd.ExecuteScalar();
+
+                if (result != null&&int.TryParse(result.ToString(),out int personID))
+                {
+                    return personID;
+                }
+            }
+            catch (Exception ex) { throw; }
+            finally { connection.Close(); }
+            return -1;
         }
         public static bool GetPersonInfoByID(int ID, ref string nationalNumber, ref string firstName, ref string secondName, ref string thirdName, ref string lastName, ref DateTime dateOfBirth
             , ref string address, ref string phone, ref byte gender, ref string email, ref int country, ref string imagepath)

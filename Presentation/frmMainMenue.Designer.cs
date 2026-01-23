@@ -33,7 +33,11 @@
             this.peopleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.accountSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.showLogedinUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.changeCurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.applicationsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageApplicationTypesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mspMainMenue.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +48,8 @@
             this.mspMainMenue.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.peopleToolStripMenuItem,
             this.accountSettingsToolStripMenuItem,
-            this.usersToolStripMenuItem});
+            this.usersToolStripMenuItem,
+            this.applicationsToolStripMenuItem});
             this.mspMainMenue.Name = "mspMainMenue";
             // 
             // peopleToolStripMenuItem
@@ -56,7 +61,9 @@
             // accountSettingsToolStripMenuItem
             // 
             this.accountSettingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.logoutToolStripMenuItem});
+            this.logoutToolStripMenuItem,
+            this.showLogedinUserToolStripMenuItem,
+            this.changeCurToolStripMenuItem});
             resources.ApplyResources(this.accountSettingsToolStripMenuItem, "accountSettingsToolStripMenuItem");
             this.accountSettingsToolStripMenuItem.Name = "accountSettingsToolStripMenuItem";
             // 
@@ -65,12 +72,39 @@
             resources.ApplyResources(this.logoutToolStripMenuItem, "logoutToolStripMenuItem");
             this.logoutToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
+            this.logoutToolStripMenuItem.Padding = new System.Windows.Forms.Padding(0);
             this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
+            // 
+            // showLogedinUserToolStripMenuItem
+            // 
+            resources.ApplyResources(this.showLogedinUserToolStripMenuItem, "showLogedinUserToolStripMenuItem");
+            this.showLogedinUserToolStripMenuItem.Name = "showLogedinUserToolStripMenuItem";
+            this.showLogedinUserToolStripMenuItem.Click += new System.EventHandler(this.showLogedinUserToolStripMenuItem_Click);
+            // 
+            // changeCurToolStripMenuItem
+            // 
+            resources.ApplyResources(this.changeCurToolStripMenuItem, "changeCurToolStripMenuItem");
+            this.changeCurToolStripMenuItem.Name = "changeCurToolStripMenuItem";
+            this.changeCurToolStripMenuItem.Click += new System.EventHandler(this.changeCurToolStripMenuItem_Click_1);
             // 
             // usersToolStripMenuItem
             // 
-            this.usersToolStripMenuItem.Name = "usersToolStripMenuItem";
             resources.ApplyResources(this.usersToolStripMenuItem, "usersToolStripMenuItem");
+            this.usersToolStripMenuItem.Name = "usersToolStripMenuItem";
+            this.usersToolStripMenuItem.Click += new System.EventHandler(this.usersToolStripMenuItem_Click);
+            // 
+            // applicationsToolStripMenuItem
+            // 
+            this.applicationsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.manageApplicationTypesToolStripMenuItem});
+            resources.ApplyResources(this.applicationsToolStripMenuItem, "applicationsToolStripMenuItem");
+            this.applicationsToolStripMenuItem.Name = "applicationsToolStripMenuItem";
+            // 
+            // manageApplicationTypesToolStripMenuItem
+            // 
+            resources.ApplyResources(this.manageApplicationTypesToolStripMenuItem, "manageApplicationTypesToolStripMenuItem");
+            this.manageApplicationTypesToolStripMenuItem.Name = "manageApplicationTypesToolStripMenuItem";
+            this.manageApplicationTypesToolStripMenuItem.Click += new System.EventHandler(this.manageApplicationTypesToolStripMenuItem_Click);
             // 
             // frmMainMenue
             // 
@@ -90,7 +124,6 @@
             this.mspMainMenue.ResumeLayout(false);
             this.mspMainMenue.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -98,9 +131,13 @@
 
         private System.Windows.Forms.MenuStrip mspMainMenue;
         private System.Windows.Forms.ToolStripMenuItem peopleToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem accountSettingsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem usersToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem showLogedinUserToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem changeCurToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem accountSettingsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem applicationsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem manageApplicationTypesToolStripMenuItem;
     }
 }
 

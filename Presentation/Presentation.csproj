@@ -53,11 +53,47 @@
     <Compile Include="ctrlAddUpdatePerson.Designer.cs">
       <DependentUpon>ctrlAddUpdatePerson.cs</DependentUpon>
     </Compile>
+    <Compile Include="ctrlAddUpdateUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlAddUpdateUser.Designer.cs">
+      <DependentUpon>ctrlAddUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrlPersonPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlPersonPicker.Designer.cs">
+      <DependentUpon>ctrlPersonPicker.cs</DependentUpon>
+    </Compile>
     <Compile Include="ctrlShowPersonInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ctrlShowPersonInfo.Designer.cs">
       <DependentUpon>ctrlShowPersonInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrlUserInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlUserInfo.Designer.cs">
+      <DependentUpon>ctrlUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddUpdateUser.Designer.cs">
+      <DependentUpon>frmAddUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmApplicationTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmApplicationTypes.Designer.cs">
+      <DependentUpon>frmApplicationTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangeUserPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangeUserPassword.Designer.cs">
+      <DependentUpon>frmChangeUserPassword.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
@@ -95,22 +131,52 @@
     <Compile Include="frmShowPersonDetails.Designer.cs">
       <DependentUpon>frmShowPersonDetails.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmShowUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowUserInfo.Designer.cs">
+      <DependentUpon>frmShowUserInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmTest.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmTest.Designer.cs">
       <DependentUpon>frmTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUpdateApplicationType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateApplicationType.Designer.cs">
+      <DependentUpon>frmUpdateApplicationType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ctrlAddUpdatePerson.resx">
       <DependentUpon>ctrlAddUpdatePerson.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ctrlAddUpdateUser.resx">
+      <DependentUpon>ctrlAddUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrlPersonPicker.resx">
+      <DependentUpon>ctrlPersonPicker.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ctrlShowPersonInfo.resx">
       <DependentUpon>ctrlShowPersonInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ctrlUserInfo.resx">
+      <DependentUpon>ctrlUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAddUpdatePerson.resx">
       <DependentUpon>frmAddUpdatePerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddUpdateUser.resx">
+      <DependentUpon>frmAddUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmApplicationTypes.resx">
+      <DependentUpon>frmApplicationTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangeUserPassword.resx">
+      <DependentUpon>frmChangeUserPassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
@@ -130,8 +196,14 @@
     <EmbeddedResource Include="frmShowPersonDetails.resx">
       <DependentUpon>frmShowPersonDetails.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmShowUserInfo.resx">
+      <DependentUpon>frmShowUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmTest.resx">
       <DependentUpon>frmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateApplicationType.resx">
+      <DependentUpon>frmUpdateApplicationType.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -191,6 +263,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\LoginScreenImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add-User %282%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

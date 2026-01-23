@@ -18,17 +18,10 @@ namespace DVLD
             InitializeComponent();
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            clsUser user = clsUser.GetUserByUserNameAndPassword(textBox1.Text, textBox2.Text);
-            if (user != null)
-            {
-                MessageBox.Show(user.ToString());
-            }
-            else
-            {
-                MessageBox.Show("faild");
-            }
+            if (ctrlAddUpdateUser2.ValidateInput())
+                MessageBox.Show("good");
         }
     }
 }

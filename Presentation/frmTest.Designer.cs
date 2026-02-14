@@ -31,8 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.ctrlAddUpdateUser2 = new DVLD.ctrlAddUpdateUser();
-            this.button1 = new System.Windows.Forms.Button();
+            this.ctrlLicensePicker1 = new DVLD.LDLApp.ctrlLicensePicker();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
@@ -41,30 +40,21 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // ctrlAddUpdateUser2
+            // ctrlLicensePicker1
             // 
-            this.ctrlAddUpdateUser2.Location = new System.Drawing.Point(43, 12);
-            this.ctrlAddUpdateUser2.Name = "ctrlAddUpdateUser2";
-            this.ctrlAddUpdateUser2.Size = new System.Drawing.Size(715, 420);
-            this.ctrlAddUpdateUser2.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(494, 472);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.ctrlLicensePicker1.FindLicenseEnabeled = true;
+            this.ctrlLicensePicker1.Location = new System.Drawing.Point(0, 0);
+            this.ctrlLicensePicker1.Name = "ctrlLicensePicker1";
+            this.ctrlLicensePicker1.Size = new System.Drawing.Size(810, 386);
+            this.ctrlLicensePicker1.TabIndex = 0;
+            this.ctrlLicensePicker1.OnLicenseSelected += new System.Action<int>(this.ctrlLicensePicker1_OnLicenseSelected);
             // 
             // frmTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(911, 541);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.ctrlAddUpdateUser2);
+            this.Controls.Add(this.ctrlLicensePicker1);
             this.Name = "frmTest";
             this.Text = "frmTest";
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
@@ -77,7 +67,6 @@
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.BindingSource bindingSource1;
         private ctrlPersonPicker ctrlAddUpdateUser1;
-        private System.Windows.Forms.Button button1;
-        private ctrlAddUpdateUser ctrlAddUpdateUser2;
+        private LDLApp.ctrlLicensePicker ctrlLicensePicker1;
     }
 }

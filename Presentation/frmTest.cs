@@ -18,10 +18,11 @@ namespace DVLD
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+   
+
+        private void ctrlLicensePicker1_OnLicenseSelected(int obj)
         {
-            if (ctrlAddUpdateUser2.ValidateInput())
-                MessageBox.Show("good");
+            MessageBox.Show(obj.ToString());
         }
     }
 }

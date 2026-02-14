@@ -82,8 +82,6 @@ namespace Business
         }
         private void _SaveImageOnDifferentDirectory()
         {
-
-
             //To delete the person's old image in the images folder
             if (Mode == enMode.Update)
             {
@@ -114,31 +112,34 @@ namespace Business
         }
         public static DataTable getAllPeople()
         {
-            return clsPersonData.GetAllPeople();
+            return clsPersonAccess.GetAllPeople();
         }
         public static DataTable getPeopleFilterdBy(string columnName, string searchValue)
         {
-            return clsPersonData.GetPeopleFilteredBy(columnName, searchValue);
+            return clsPersonAccess.GetPeopleFilteredBy(columnName, searchValue);
         }
         public static bool PersonExistsByNationalNo(string nationalNo)
         {
-            return clsPersonData.PersonExistsByNationalNo(nationalNo);
+            return clsPersonAccess.PersonExistsByNationalNo(nationalNo);
         }
         public static bool PersonExistsByPersonID(int personID)
         {
-            return clsPersonData.PersonExistByPersonID(personID);
+            return clsPersonAccess.PersonExistByPersonID(personID);
         }
-
+        public static int GetPersonIDByDriverID(int personID)
+        {
+            return clsPersonAccess.GetPersonIDByDriverID(personID);
+        }
         public static int GetPersonIDByNationalNo(string nationalNo)
         {
-           return clsPersonData.GetPersonIDByNationalNo(nationalNo);
+           return clsPersonAccess.GetPersonIDByNationalNo(nationalNo);
         }
         public static clsPerson FindPersonByID(int ID)
         {
             string nationalNumber = ""; string firstName = ""; string secondName = ""; string thirdName = ""; string lastName = ""; DateTime dateOfBirth=DateTime.MinValue;
             string address = ""; string phone = ""; byte gender = 0; string email = ""; int country = 0; string imagepath = "";
 
-            if (clsPersonData.GetPersonInfoByID(ID, ref nationalNumber, ref firstName, ref secondName, ref thirdName, ref lastName,
+            if (clsPersonAccess.GetPersonInfoByID(ID, ref nationalNumber, ref firstName, ref secondName, ref thirdName, ref lastName,
                 ref dateOfBirth, ref address, ref phone, ref gender, ref email, ref country, ref imagepath)) 
                 return (new clsPerson(ID,nationalNumber,firstName,secondName,thirdName,lastName, 
                   email, phone, address, (enGender)gender, dateOfBirth, country, imagepath));
@@ -148,7 +149,7 @@ namespace Business
         {
             _SaveImageOnDifferentDirectory();
 
-            this.Id= clsPersonData.AddNewPerson(NationalNo,FirstName,SecondName,ThirdName,LastName,DateOfBirth,
+            this.Id= clsPersonAccess.AddNewPerson(NationalNo,FirstName,SecondName,ThirdName,LastName,DateOfBirth,
                 Address,Phone, (byte)Gender,Email,Country,ImagePath);
             if (this.Id != -1)
                 return true;
@@ -158,7 +159,7 @@ namespace Business
         private bool _UpdatePerson()
         {
             _SaveImageOnDifferentDirectory();
-            return clsPersonData.UpdatePerson(Id, NationalNo, FirstName, SecondName, ThirdName, LastName, DateOfBirth,
+            return clsPersonAccess.UpdatePerson(Id, NationalNo, FirstName, SecondName, ThirdName, LastName, DateOfBirth,
                                     Address, Phone, (byte)Gender, Email, Country, ImagePath);
         }
         public static void DeletePerson(int personID) 
@@ -166,12 +167,17 @@ namespace Business
             try {
                 clsPerson person = FindPersonByID(personID);
 
-                clsPersonData.DeletePerson(personID);
+                clsPersonAccess.DeletePerson(personID);
 
                 if (person != null && !string.IsNullOrEmpty(person.ImagePath))
                     File.Delete(person.ImagePath);
             }
             catch (Exception ex) { throw; }
+        }
+
+        public static string GetPersonFullNameByID(int personID)
+        {
+            return clsPersonAccess.GetPersonNameByID(personID);
         }
         public bool Save()
         {

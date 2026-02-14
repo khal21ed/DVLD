@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess
 {
-    public class clsPersonData
+    public class clsPersonAccess
     {
         public static DataTable GetAllPeople()
         {
@@ -199,6 +199,28 @@ namespace DataAccess
             finally { connection.Close(); }
             return false;
         }
+        public static int GetPersonIDByDriverID(int driverID)
+        {
+            SqlConnection connection = new SqlConnection(clsDataAccessSettings.connectionString);
+            string query = @"select P.PersonID from People P
+                        join Drivers D on P.PersonID = d.PersonID
+                        where D.DriverID=@DriverID;";
+
+            SqlCommand cmd = new SqlCommand(query,connection);
+            cmd.Parameters.AddWithValue("@DriverID", driverID);
+
+            try
+            {
+                connection.Open();
+                object result = cmd.ExecuteScalar();
+
+                if(result!=null && int.TryParse(result.ToString(), out int personID))
+                        return personID;
+            }
+            catch (Exception ex) { throw; }
+            finally { connection.Close(); }
+            return -1;
+        }
         public static bool PersonExistsByNationalNo(string nationalID)
         {
             if (string.IsNullOrEmpty(nationalID))
@@ -226,7 +248,6 @@ namespace DataAccess
 
             return false;
         }
-
         public static int GetPersonIDByNationalNo(string nationalNo)
         {
 
@@ -376,6 +397,30 @@ namespace DataAccess
             finally { connection.Close(); }
 
             
+        }
+        public static string GetPersonNameByID(int personID)
+        {
+            SqlConnection connection = new SqlConnection(clsDataAccessSettings.connectionString);
+            string query = @"  select FirstName+' '+SecondName+ 
+                              case when ThirdName is not null then ' '+ThirdName+' '
+                              else ' '
+                              end + LastName as FullName
+                              from people
+                              Where PersonID=@PersonID";
+            SqlCommand cmd = new SqlCommand(query, connection);
+            cmd.Parameters.AddWithValue("@PersonID", personID);
+
+            try
+            {
+                connection.Open();
+                object fullName = cmd.ExecuteScalar();
+
+                if (fullName != null)
+                    return fullName.ToString();
+            }
+            catch (Exception ex){ throw; }
+            finally { connection.Close(); }
+            return null;
         }
     }
 }

@@ -16,9 +16,10 @@ namespace DVLD
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new frmTest());
+            //Application.Run(new frmLogin());
             //frmLogin loginForm = new frmLogin();
             //frmMainMenue mainMenue = new frmMainMenue();
+
             while (true)
             {
                 using (frmLogin loginForm = new frmLogin())
@@ -27,7 +28,7 @@ namespace DVLD
                         break;
                 }
 
-                using (frmMainMenue mainMenue = new frmMainMenue())
+                using (frmMainMenu mainMenue = new frmMainMenu())
                 {
                     if (mainMenue.ShowDialog() != DialogResult.Abort)
                         break;

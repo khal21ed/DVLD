@@ -33,6 +33,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,11 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsApplicationAccess.cs" />
     <Compile Include="clsApplicationTypesAccess.cs" />
     <Compile Include="clsCountryData.cs" />
+    <Compile Include="clsDetainedLicenseAccess.cs" />
+    <Compile Include="clsDriverAccess.cs" />
+    <Compile Include="clsInternationalLicenseAccess.cs" />
+    <Compile Include="clsLicenseAccess.cs" />
+    <Compile Include="clsLicenseClassAccess.cs" />
     <Compile Include="clsPersonAccess.cs" />
     <Compile Include="clsDataAccessSettings.cs" />
+    <Compile Include="clsTestAccess.cs" />
+    <Compile Include="clsTestAppointmentsAccess.cs" />
+    <Compile Include="clsTestTypesAccess.cs" />
     <Compile Include="clsUserAccess.cs" />
+    <Compile Include="clsLocalDrivingLicenseAppAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

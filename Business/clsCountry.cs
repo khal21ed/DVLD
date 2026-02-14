@@ -18,7 +18,6 @@ namespace Business
         {
             return clsCountryData.GetAllCountryNames();
         }
-
         public static string FindCountryByID(int id)
         {
             return clsCountryData.FindCountryByCountryID(id)??"";

@@ -50,7 +50,7 @@ Through this project, I improved my understanding of:
 - Username: Khaled
 - Password: 1234
 
-## Note
+## Notes
 
 The main functionalities of the system work as expected, but the project was not fully tested in all edge cases. If you encounter any issues, feel free to let me know so I can fix them.
 

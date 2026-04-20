@@ -3,11 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Configuration;
 
 namespace DataAccess
 {
     internal class clsDataAccessSettings
     {
-        public static string connectionString = "Server=.;Database=DVLD;User Id=sa;Password=123456;";
+        
+        public static string connectionString 
+        {
+
+            get { return ConfigurationManager.ConnectionStrings["DVLDConnectionString"].ConnectionString; }
+        }
     }
 }

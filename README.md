@@ -61,12 +61,12 @@ The main functionalities of the system work as expected, but the project was not
 
 ### Login Screen
 
-![Login Screen](screenshots/LoginPage.png)
+![Login Screen](Screenshots/LoginPage.png)
 
-### Dashboard
+### Main Screen
 
 ![Main Screen](Screenshots/MainScreen.png)
 
 ### License Management
 
-![Managing License Applications](screenshots/ManagingLocalApplications.png)
+![Managing License Applications](Screenshots/ManagingLocalApplications.png)

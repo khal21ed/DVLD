@@ -3,19 +3,27 @@
   "WorkspaceRootPath": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\frmrenewlicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\frmrenewlicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\licences\\frmrenewlicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\frmrenewlicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\detainedlicences\\frmmanagedeta\u0131nedl\u0131censes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\detainedlicences\\frmmanagedeta\u0131nedl\u0131censes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\detainedlicences\\frmmanagedeta\u0131nedl\u0131censes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\licences\\detainedlicences\\frmmanagedeta\u0131nedl\u0131censes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\detainedlicences\\frmmanagedeta\u0131nedl\u0131censes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\detainedlicences\\frmreleasedeta\u0131nedl\u0131cense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\licences\\detainedlicences\\frmreleasedeta\u0131nedl\u0131cense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\detainedlicences\\frmreleasedeta\u0131nedl\u0131cense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\detainedlicences\\frmreleasedeta\u0131nedl\u0131cense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\licences\\detainedlicences\\frmreleasedeta\u0131nedl\u0131cense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\detainedlicences\\frmreleasedeta\u0131nedl\u0131cense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,28 +34,24 @@
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:user\\frmmanageusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\detainedlicences\\frmdetainlicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\licences\\detainedlicences\\frmdetainlicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\detainedlicences\\frmdetainlicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\applications\\ldlapp\\frmmanageldlapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\applications\\ldlapp\\frmmanageldlapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:applications\\ldlapp\\frmmanageldlapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\applications\\ldlapp\\frmaddupdateldlapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\applications\\ldlapp\\frmaddupdateldlapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:applications\\ldlapp\\frmaddupdateldlapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\applications\\ldlapp\\frmldlappdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\applications\\ldlapp\\frmldlappdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:applications\\ldlapp\\frmldlappdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\frmlicensereplacementforlostordamaged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\licences\\frmlicensereplacementforlostordamaged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\frmlicensereplacementforlostordamaged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\frmrenewlicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\frmrenewlicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{419E12C0-713C-4678-8BB3-2F5CAF45A01C}|..\\Business\\Business.csproj|d:\\c#-projects\\course-19\\dvld\\business\\clsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -65,48 +69,40 @@
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\detainedlicences\\frmmanagedeta\u0131nedl\u0131censes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\licences\\detainedlicences\\frmmanagedeta\u0131nedl\u0131censes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\detainedlicences\\frmmanagedeta\u0131nedl\u0131censes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\frmlicensehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\licences\\frmlicensehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\frmlicensehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\frmlicensehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\licences\\frmlicensehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\frmlicensehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\internat\u0131onall\u0131cense\\frmmanageinternationallicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\licences\\internat\u0131onall\u0131cense\\frmmanageinternationallicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\internat\u0131onall\u0131cense\\frmmanageinternationallicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\internat\u0131onall\u0131cense\\frmmanageinternationallicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\licences\\internat\u0131onall\u0131cense\\frmmanageinternationallicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\internat\u0131onall\u0131cense\\frmmanageinternationallicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\internat\u0131onall\u0131cense\\frmissueinternationallicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\licences\\internat\u0131onall\u0131cense\\frmissueinternationallicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\internat\u0131onall\u0131cense\\frmissueinternationallicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\internat\u0131onall\u0131cense\\frminternationallicenseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\licences\\internat\u0131onall\u0131cense\\frminternationallicenseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\internat\u0131onall\u0131cense\\frminternationallicenseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\licences\\frmissuedrivinglicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\licences\\frmissuedrivinglicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:licences\\frmissuedrivinglicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|d:\\c#-projects\\course-19\\dvld\\presentation\\applications\\ldlapp\\frmmanageldlapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\applications\\ldlapp\\frmmanageldlapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:applications\\ldlapp\\frmmanageldlapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmmainmenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:frmmainmenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmmainmenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:frmmainmenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{419E12C0-713C-4678-8BB3-2F5CAF45A01C}|..\\Business\\Business.csproj|d:\\c#-projects\\course-19\\dvld\\business\\clsdetainedlicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -245,10 +241,6 @@
       "AbsoluteMoniker": "D:0:0:{9C3146D4-BD83-4D95-B126-5FAD1C6B6BCD}|..\\DataAccess\\DataAccess.csproj|d:\\c#-projects\\course-19\\dvld\\dataaccess\\clsdataaccesssettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmmainmenue.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:frmmainmenue.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\clssessoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:clssessoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -259,10 +251,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|solutionrelative:properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|DVLD.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmmainmenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|DVLD.csproj|solutionrelative:frmmainmenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DADB2B3A-E6C7-45F2-BE7C-D387227274D0}|Presentation.csproj|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\resources\\group.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
@@ -575,6 +563,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\People\\ctrlPersonPicker.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:People\\ctrlPersonPicker.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmMainMenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frmMainMenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmmainmenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frmmainmenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmMainMenue.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frmMainMenue.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -584,11 +584,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "frmManageUsers.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\User\\frmManageUsers.cs",
               "RelativeDocumentMoniker": "User\\frmManageUsers.cs",
@@ -597,12 +597,11 @@
               "ViewState": "AgIAADgAAAAAAAAAAAAwwEQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T17:01:15.705Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "frmManageDeta\u0131nedL\u0131censes.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\DetainedLicences\\frmManageDeta\u0131nedL\u0131censes.cs",
               "RelativeDocumentMoniker": "Licences\\DetainedLicences\\frmManageDeta\u0131nedL\u0131censes.cs",
@@ -616,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "frmManageDeta\u0131nedL\u0131censes.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\DetainedLicences\\frmManageDeta\u0131nedL\u0131censes.cs",
               "RelativeDocumentMoniker": "Licences\\DetainedLicences\\frmManageDeta\u0131nedL\u0131censes.cs",
@@ -628,25 +627,25 @@
               "EditorCaption": " [Design]"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmRenewLicense.cs",
+              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\frmRenewLicense.cs",
+              "RelativeDocumentMoniker": "Licences\\frmRenewLicense.cs",
+              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\frmRenewLicense.cs",
+              "RelativeToolTip": "Licences\\frmRenewLicense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T10:30:57.628Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "clsDetainedLicenseAccess.cs",
-              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsDetainedLicenseAccess.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\clsDetainedLicenseAccess.cs",
-              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsDetainedLicenseAccess.cs",
-              "RelativeToolTip": "..\\DataAccess\\clsDetainedLicenseAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:00:02.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "frmReleaseDeta\u0131nedL\u0131cense.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\DetainedLicences\\frmReleaseDeta\u0131nedL\u0131cense.cs",
               "RelativeDocumentMoniker": "Licences\\DetainedLicences\\frmReleaseDeta\u0131nedL\u0131cense.cs",
@@ -654,123 +653,22 @@
               "RelativeToolTip": "Licences\\DetainedLicences\\frmReleaseDeta\u0131nedL\u0131cense.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAIwHAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T20:15:58.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T20:15:58.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "frmReleaseDeta\u0131nedL\u0131cense.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\DetainedLicences\\frmReleaseDeta\u0131nedL\u0131cense.cs",
               "RelativeDocumentMoniker": "Licences\\DetainedLicences\\frmReleaseDeta\u0131nedL\u0131cense.cs",
               "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\DetainedLicences\\frmReleaseDeta\u0131nedL\u0131cense.cs [Design]",
               "RelativeToolTip": "Licences\\DetainedLicences\\frmReleaseDeta\u0131nedL\u0131cense.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T20:15:55.324Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-02-10T20:15:55.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmAddUpdateLDLApp.cs [Design]",
-              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Applications\\LDLApp\\frmAddUpdateLDLApp.cs",
-              "RelativeDocumentMoniker": "Applications\\LDLApp\\frmAddUpdateLDLApp.cs",
-              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Applications\\LDLApp\\frmAddUpdateLDLApp.cs [Design]",
-              "RelativeToolTip": "Applications\\LDLApp\\frmAddUpdateLDLApp.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T20:15:33.773Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "frmLDLAppDetails.cs [Design]",
-              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Applications\\LDLApp\\frmLDLAppDetails.cs",
-              "RelativeDocumentMoniker": "Applications\\LDLApp\\frmLDLAppDetails.cs",
-              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Applications\\LDLApp\\frmLDLAppDetails.cs [Design]",
-              "RelativeToolTip": "Applications\\LDLApp\\frmLDLAppDetails.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T20:15:32.803Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmDetainLicense.cs [Design]",
-              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\DetainedLicences\\frmDetainLicense.cs",
-              "RelativeDocumentMoniker": "Licences\\DetainedLicences\\frmDetainLicense.cs",
-              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\DetainedLicences\\frmDetainLicense.cs [Design]",
-              "RelativeToolTip": "Licences\\DetainedLicences\\frmDetainLicense.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T20:15:30.654Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmManageLDLApp.cs [Design]",
-              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Applications\\LDLApp\\frmManageLDLApp.cs",
-              "RelativeDocumentMoniker": "Applications\\LDLApp\\frmManageLDLApp.cs",
-              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Applications\\LDLApp\\frmManageLDLApp.cs [Design]",
-              "RelativeToolTip": "Applications\\LDLApp\\frmManageLDLApp.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T17:16:31.953Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "frmLogin.cs [Design]",
-              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmLogin.cs",
-              "RelativeDocumentMoniker": "frmLogin.cs",
-              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmLogin.cs [Design]",
-              "RelativeToolTip": "frmLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T05:22:55.745Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T12:07:13.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "frmLogin.cs",
-              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmLogin.cs",
-              "RelativeDocumentMoniker": "frmLogin.cs",
-              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmLogin.cs",
-              "RelativeToolTip": "frmLogin.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAADwvy4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T08:37:39.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "clsUser.cs",
-              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsUser.cs",
-              "RelativeDocumentMoniker": "..\\Business\\clsUser.cs",
-              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsUser.cs",
-              "RelativeToolTip": "..\\Business\\clsUser.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAwEYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T06:38:34.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "frmRenewLicense.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\frmRenewLicense.cs",
               "RelativeDocumentMoniker": "Licences\\frmRenewLicense.cs",
@@ -782,19 +680,121 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "clsDetainedLicenseAccess.cs",
+              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsDetainedLicenseAccess.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\clsDetainedLicenseAccess.cs",
+              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsDetainedLicenseAccess.cs",
+              "RelativeToolTip": "..\\DataAccess\\clsDetainedLicenseAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T18:00:02.258Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "frmAddUpdateLDLApp.cs [Design]",
+              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Applications\\LDLApp\\frmAddUpdateLDLApp.cs",
+              "RelativeDocumentMoniker": "Applications\\LDLApp\\frmAddUpdateLDLApp.cs",
+              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Applications\\LDLApp\\frmAddUpdateLDLApp.cs [Design]",
+              "RelativeToolTip": "Applications\\LDLApp\\frmAddUpdateLDLApp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T20:15:33.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmLDLAppDetails.cs [Design]",
+              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Applications\\LDLApp\\frmLDLAppDetails.cs",
+              "RelativeDocumentMoniker": "Applications\\LDLApp\\frmLDLAppDetails.cs",
+              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Applications\\LDLApp\\frmLDLAppDetails.cs [Design]",
+              "RelativeToolTip": "Applications\\LDLApp\\frmLDLAppDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T20:15:32.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmDetainLicense.cs [Design]",
+              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\DetainedLicences\\frmDetainLicense.cs",
+              "RelativeDocumentMoniker": "Licences\\DetainedLicences\\frmDetainLicense.cs",
+              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\DetainedLicences\\frmDetainLicense.cs [Design]",
+              "RelativeToolTip": "Licences\\DetainedLicences\\frmDetainLicense.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T20:15:30.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmManageLDLApp.cs [Design]",
+              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Applications\\LDLApp\\frmManageLDLApp.cs",
+              "RelativeDocumentMoniker": "Applications\\LDLApp\\frmManageLDLApp.cs",
+              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Applications\\LDLApp\\frmManageLDLApp.cs [Design]",
+              "RelativeToolTip": "Applications\\LDLApp\\frmManageLDLApp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T17:16:31.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmLogin.cs [Design]",
+              "RelativeToolTip": "frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T05:22:55.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:07:13.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmLogin.cs",
+              "RelativeToolTip": "frmLogin.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvy4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T08:37:39.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "clsUser.cs",
+              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsUser.cs",
+              "RelativeDocumentMoniker": "..\\Business\\clsUser.cs",
+              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsUser.cs",
+              "RelativeToolTip": "..\\Business\\clsUser.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAwEYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T06:38:34.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "frmLicenseReplacementForLostOrDamaged.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\frmLicenseReplacementForLostOrDamaged.cs",
               "RelativeDocumentMoniker": "Licences\\frmLicenseReplacementForLostOrDamaged.cs",
               "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\frmLicenseReplacementForLostOrDamaged.cs [Design]",
               "RelativeToolTip": "Licences\\frmLicenseReplacementForLostOrDamaged.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:37:30.181Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-02-10T18:37:30.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "frmManageInternationalLicenses.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\Internat\u0131onalL\u0131cense\\frmManageInternationalLicenses.cs",
               "RelativeDocumentMoniker": "Licences\\Internat\u0131onalL\u0131cense\\frmManageInternationalLicenses.cs",
@@ -802,24 +802,22 @@
               "RelativeToolTip": "Licences\\Internat\u0131onalL\u0131cense\\frmManageInternationalLicenses.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAwwFAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:37:39.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T18:37:39.199Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "frmLicenseHistory.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\frmLicenseHistory.cs",
               "RelativeDocumentMoniker": "Licences\\frmLicenseHistory.cs",
               "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\frmLicenseHistory.cs [Design]",
               "RelativeToolTip": "Licences\\frmLicenseHistory.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:59:17.762Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-02-10T18:59:17.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "frmManageDeta\u0131nedL\u0131censes.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\DetainedLicences\\frmManageDeta\u0131nedL\u0131censes.Designer.cs",
               "RelativeDocumentMoniker": "Licences\\DetainedLicences\\frmManageDeta\u0131nedL\u0131censes.Designer.cs",
@@ -827,12 +825,11 @@
               "RelativeToolTip": "Licences\\DetainedLicences\\frmManageDeta\u0131nedL\u0131censes.Designer.cs",
               "ViewState": "AgIAAMQAAAAAAAAAAADwv9AAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T19:09:01.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T19:09:01.034Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "frmLicenseHistory.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\frmLicenseHistory.cs",
               "RelativeDocumentMoniker": "Licences\\frmLicenseHistory.cs",
@@ -840,73 +837,66 @@
               "RelativeToolTip": "Licences\\frmLicenseHistory.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAMwFYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:59:26.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T18:59:26.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "frmManageInternationalLicenses.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\Internat\u0131onalL\u0131cense\\frmManageInternationalLicenses.cs",
               "RelativeDocumentMoniker": "Licences\\Internat\u0131onalL\u0131cense\\frmManageInternationalLicenses.cs",
               "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\Internat\u0131onalL\u0131cense\\frmManageInternationalLicenses.cs [Design]",
               "RelativeToolTip": "Licences\\Internat\u0131onalL\u0131cense\\frmManageInternationalLicenses.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:37:36.635Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-02-10T18:37:36.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "frmIssueInternationalLicense.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\Internat\u0131onalL\u0131cense\\frmIssueInternationalLicense.cs",
               "RelativeDocumentMoniker": "Licences\\Internat\u0131onalL\u0131cense\\frmIssueInternationalLicense.cs",
               "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\Internat\u0131onalL\u0131cense\\frmIssueInternationalLicense.cs [Design]",
               "RelativeToolTip": "Licences\\Internat\u0131onalL\u0131cense\\frmIssueInternationalLicense.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:37:35.957Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-02-10T18:37:35.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "frmInternationalLicenseInfo.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\Internat\u0131onalL\u0131cense\\frmInternationalLicenseInfo.cs",
               "RelativeDocumentMoniker": "Licences\\Internat\u0131onalL\u0131cense\\frmInternationalLicenseInfo.cs",
               "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\Internat\u0131onalL\u0131cense\\frmInternationalLicenseInfo.cs [Design]",
               "RelativeToolTip": "Licences\\Internat\u0131onalL\u0131cense\\frmInternationalLicenseInfo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:37:34.218Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-02-10T18:37:34.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "frmIssueDrivingLicense.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\frmIssueDrivingLicense.cs",
               "RelativeDocumentMoniker": "Licences\\frmIssueDrivingLicense.cs",
               "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Licences\\frmIssueDrivingLicense.cs [Design]",
               "RelativeToolTip": "Licences\\frmIssueDrivingLicense.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:37:32.782Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-02-10T18:37:32.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 148,
               "Title": "frmMainMenue.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmMainMenue.cs",
               "RelativeDocumentMoniker": "frmMainMenue.cs",
               "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmMainMenue.cs",
               "RelativeToolTip": "frmMainMenue.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAcwI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T07:45:48.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T20:59:22.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "frmManageLDLApp.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Applications\\LDLApp\\frmManageLDLApp.cs",
               "RelativeDocumentMoniker": "Applications\\LDLApp\\frmManageLDLApp.cs",
@@ -914,24 +904,22 @@
               "RelativeToolTip": "Applications\\LDLApp\\frmManageLDLApp.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAtwG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T17:33:33.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T17:33:33.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 149,
               "Title": "frmMainMenue.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmMainMenue.cs",
               "RelativeDocumentMoniker": "frmMainMenue.cs",
               "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmMainMenue.cs [Design]",
               "RelativeToolTip": "frmMainMenue.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T08:36:40.219Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-22T08:36:40.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "clsDetainedLicense.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsDetainedLicense.cs",
               "RelativeDocumentMoniker": "..\\Business\\clsDetainedLicense.cs",
@@ -939,24 +927,22 @@
               "RelativeToolTip": "..\\Business\\clsDetainedLicense.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAswE0AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:10:01.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T18:10:01.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "frmManageUsers.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\User\\frmManageUsers.cs",
               "RelativeDocumentMoniker": "User\\frmManageUsers.cs",
               "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\User\\frmManageUsers.cs [Design]",
               "RelativeToolTip": "User\\frmManageUsers.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T09:21:02.672Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-25T09:21:02.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 101,
               "Title": "frmManageInternationalLicenses.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\L\u0131cences\\Internat\u0131onalL\u0131cense\\frmManageInternationalLicenses.cs",
               "RelativeDocumentMoniker": "L\u0131cences\\Internat\u0131onalL\u0131cense\\frmManageInternationalLicenses.cs",
@@ -967,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 102,
               "Title": "frmManageInternationalLicenses.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\L\u0131cences\\Internat\u0131onalL\u0131cense\\frmManageInternationalLicenses.cs",
               "RelativeDocumentMoniker": "L\u0131cences\\Internat\u0131onalL\u0131cense\\frmManageInternationalLicenses.cs",
@@ -978,7 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 103,
               "Title": "frmSchedualTest.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmSchedualTest.cs",
               "RelativeDocumentMoniker": "LDLApp\\frmSchedualTest.cs",
@@ -989,7 +975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 104,
               "Title": "frmTestAppointments.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmTestAppointments.cs",
               "RelativeDocumentMoniker": "LDLApp\\frmTestAppointments.cs",
@@ -1000,7 +986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 105,
               "Title": "frmLicenseInfoCard.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmLicenseInfoCard.cs",
               "RelativeDocumentMoniker": "LDLApp\\frmLicenseInfoCard.cs",
@@ -1011,7 +997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 106,
               "Title": "frmInternationalLicenseInfo.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\L\u0131cences\\Internat\u0131onalL\u0131cense\\frmInternationalLicenseInfo.cs",
               "RelativeDocumentMoniker": "L\u0131cences\\Internat\u0131onalL\u0131cense\\frmInternationalLicenseInfo.cs",
@@ -1022,7 +1008,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "clsLicense.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsLicense.cs",
               "RelativeDocumentMoniker": "..\\Business\\clsLicense.cs",
@@ -1034,7 +1020,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "clsLicenseAccess.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsLicenseAccess.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\clsLicenseAccess.cs",
@@ -1046,7 +1032,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "clsApplicationTypes.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsApplicationTypes.cs",
               "RelativeDocumentMoniker": "..\\Business\\clsApplicationTypes.cs",
@@ -1058,7 +1044,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "clsApplication.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsApplication.cs",
               "RelativeDocumentMoniker": "..\\Business\\clsApplication.cs",
@@ -1070,7 +1056,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "clsGlobal.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\clsGlobal.cs",
               "RelativeDocumentMoniker": "clsGlobal.cs",
@@ -1082,7 +1068,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "clsInternationalLicenseAccess.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsInternationalLicenseAccess.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\clsInternationalLicenseAccess.cs",
@@ -1094,7 +1080,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "frmAddUpdateUser.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\User\\frmAddUpdateUser.cs",
               "RelativeDocumentMoniker": "User\\frmAddUpdateUser.cs",
@@ -1105,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "frmChangeUserPassword.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\User\\frmChangeUserPassword.cs",
               "RelativeDocumentMoniker": "User\\frmChangeUserPassword.cs",
@@ -1116,7 +1102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 107,
               "Title": "ctrlAddUpdateUser.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\User\\ctrlAddUpdateUser.cs",
               "RelativeDocumentMoniker": "User\\ctrlAddUpdateUser.cs",
@@ -1127,7 +1113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 108,
               "Title": "ctrlUserInfo.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\User\\ctrlUserInfo.cs",
               "RelativeDocumentMoniker": "User\\ctrlUserInfo.cs",
@@ -1138,7 +1124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "clsInternationalLicenseCardInfo.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsInternationalLicenseCardInfo.cs",
               "RelativeDocumentMoniker": "..\\Business\\clsInternationalLicenseCardInfo.cs",
@@ -1150,7 +1136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "clsInternationalLicense.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsInternationalLicense.cs",
               "RelativeDocumentMoniker": "..\\Business\\clsInternationalLicense.cs",
@@ -1162,7 +1148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 109,
               "Title": "ctrlInternationalLicenseCard.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\L\u0131cences\\Internat\u0131onalL\u0131cense\\ctrlInternationalLicenseCard.cs",
               "RelativeDocumentMoniker": "L\u0131cences\\Internat\u0131onalL\u0131cense\\ctrlInternationalLicenseCard.cs",
@@ -1173,7 +1159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 110,
               "Title": "frmInternationalLicenseInfo.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\L\u0131cences\\Internat\u0131onalL\u0131cense\\frmInternationalLicenseInfo.cs",
               "RelativeDocumentMoniker": "L\u0131cences\\Internat\u0131onalL\u0131cense\\frmInternationalLicenseInfo.cs",
@@ -1185,7 +1171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 111,
               "Title": "ctrlLicenseInfo.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\ctrlLicenseInfo.cs",
               "RelativeDocumentMoniker": "LDLApp\\ctrlLicenseInfo.cs",
@@ -1196,7 +1182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "clsApplicationAccess.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsApplicationAccess.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\clsApplicationAccess.cs",
@@ -1208,7 +1194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "clsPersonAccess.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsPersonAccess.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\clsPersonAccess.cs",
@@ -1220,7 +1206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "clsPerson.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsPerson.cs",
               "RelativeDocumentMoniker": "..\\Business\\clsPerson.cs",
@@ -1232,7 +1218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 112,
               "Title": "ctrlLicensePicker.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\ctrlLicensePicker.cs",
               "RelativeDocumentMoniker": "LDLApp\\ctrlLicensePicker.cs",
@@ -1243,7 +1229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 113,
               "Title": "ctrlLicensePicker.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\ctrlLicensePicker.cs",
               "RelativeDocumentMoniker": "LDLApp\\ctrlLicensePicker.cs",
@@ -1255,7 +1241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 114,
               "Title": "frmIssueInternationalLicense.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\L\u0131cences\\Internat\u0131onalL\u0131cense\\frmIssueInternationalLicense.Designer.cs",
               "RelativeDocumentMoniker": "L\u0131cences\\Internat\u0131onalL\u0131cense\\frmIssueInternationalLicense.Designer.cs",
@@ -1267,7 +1253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 115,
               "Title": "ctrlLicenseInfo.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\ctrlLicenseInfo.cs",
               "RelativeDocumentMoniker": "LDLApp\\ctrlLicenseInfo.cs",
@@ -1279,7 +1265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 116,
               "Title": "ctrlShowLDLAppInfo.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\ctrlShowLDLAppInfo.cs",
               "RelativeDocumentMoniker": "LDLApp\\ctrlShowLDLAppInfo.cs",
@@ -1290,7 +1276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "clsLocalDrivingLicenseAppAccess.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsLocalDrivingLicenseAppAccess.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\clsLocalDrivingLicenseAppAccess.cs",
@@ -1302,7 +1288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 117,
               "Title": "frmSchedualTest.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmSchedualTest.cs",
               "RelativeDocumentMoniker": "LDLApp\\frmSchedualTest.cs",
@@ -1314,7 +1300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "clsDriver.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsDriver.cs",
               "RelativeDocumentMoniker": "..\\Business\\clsDriver.cs",
@@ -1326,7 +1312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 118,
               "Title": "frmIssueDrivingLicense.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmIssueDrivingLicense.cs",
               "RelativeDocumentMoniker": "LDLApp\\frmIssueDrivingLicense.cs",
@@ -1338,7 +1324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "clsTestAppointment.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsTestAppointment.cs",
               "RelativeDocumentMoniker": "..\\Business\\clsTestAppointment.cs",
@@ -1350,7 +1336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "clsLicenseClass.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsLicenseClass.cs",
               "RelativeDocumentMoniker": "..\\Business\\clsLicenseClass.cs",
@@ -1362,7 +1348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 45,
               "Title": "clsLicenseClassAccess.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsLicenseClassAccess.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\clsLicenseClassAccess.cs",
@@ -1374,7 +1360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 119,
               "Title": "frmAddUpdateLDLApp.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmAddUpdateLDLApp.cs",
               "RelativeDocumentMoniker": "LDLApp\\frmAddUpdateLDLApp.cs",
@@ -1386,7 +1372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 46,
               "Title": "frmTest.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmTest.Designer.cs",
               "RelativeDocumentMoniker": "frmTest.Designer.cs",
@@ -1398,7 +1384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 120,
               "Title": "frmLicenseHistory.resx",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmLicenseHistory.resx",
               "RelativeDocumentMoniker": "LDLApp\\frmLicenseHistory.resx",
@@ -1409,7 +1395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 121,
               "Title": "frmLicenseInfoCard.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmLicenseInfoCard.Designer.cs",
               "RelativeDocumentMoniker": "LDLApp\\frmLicenseInfoCard.Designer.cs",
@@ -1421,7 +1407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 122,
               "Title": "frmIssueInternationalLicense.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\L\u0131cences\\Internat\u0131onalL\u0131cense\\frmIssueInternationalLicense.cs",
               "RelativeDocumentMoniker": "L\u0131cences\\Internat\u0131onalL\u0131cense\\frmIssueInternationalLicense.cs",
@@ -1431,7 +1417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 47,
               "Title": "frmTest.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmTest.cs",
               "RelativeDocumentMoniker": "frmTest.cs",
@@ -1443,7 +1429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 48,
               "Title": "frmTest.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmTest.cs",
               "RelativeDocumentMoniker": "frmTest.cs",
@@ -1454,7 +1440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 123,
               "Title": "ctrlPersonPicker.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\People\\ctrlPersonPicker.cs",
               "RelativeDocumentMoniker": "People\\ctrlPersonPicker.cs",
@@ -1465,7 +1451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 124,
               "Title": "frmIssueInternationalLicense.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\L\u0131cences\\Internat\u0131onalL\u0131cense\\frmIssueInternationalLicense.cs",
               "RelativeDocumentMoniker": "L\u0131cences\\Internat\u0131onalL\u0131cense\\frmIssueInternationalLicense.cs",
@@ -1476,7 +1462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 125,
               "Title": "ctrlPersonPicker.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\People\\ctrlPersonPicker.cs",
               "RelativeDocumentMoniker": "People\\ctrlPersonPicker.cs",
@@ -1487,7 +1473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 126,
               "Title": "ctrlShowPersonInfo.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\People\\ctrlShowPersonInfo.cs",
               "RelativeDocumentMoniker": "People\\ctrlShowPersonInfo.cs",
@@ -1498,7 +1484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 127,
               "Title": "frmManageDrivers.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmManageDrivers.cs",
               "RelativeDocumentMoniker": "LDLApp\\frmManageDrivers.cs",
@@ -1510,7 +1496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 128,
               "Title": "frmTakeTest.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmTakeTest.cs",
               "RelativeDocumentMoniker": "LDLApp\\frmTakeTest.cs",
@@ -1521,7 +1507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 129,
               "Title": "ctrlLicensePicker.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\ctrlLicensePicker.Designer.cs",
               "RelativeDocumentMoniker": "LDLApp\\ctrlLicensePicker.Designer.cs",
@@ -1533,7 +1519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 130,
               "Title": "frmTakeTest.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmTakeTest.cs",
               "RelativeDocumentMoniker": "LDLApp\\frmTakeTest.cs",
@@ -1545,7 +1531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 131,
               "Title": "frmTestAppointments.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmTestAppointments.cs",
               "RelativeDocumentMoniker": "LDLApp\\frmTestAppointments.cs",
@@ -1557,7 +1543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 132,
               "Title": "ctrlShowLDLAppInfo.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\ctrlShowLDLAppInfo.cs",
               "RelativeDocumentMoniker": "LDLApp\\ctrlShowLDLAppInfo.cs",
@@ -1569,7 +1555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 133,
               "Title": "ctrlAddUpdateUser.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\User\\ctrlAddUpdateUser.cs",
               "RelativeDocumentMoniker": "User\\ctrlAddUpdateUser.cs",
@@ -1581,7 +1567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 49,
               "Title": "clsLocalDrivingLicenseApp.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsLocalDrivingLicenseApp.cs",
               "RelativeDocumentMoniker": "..\\Business\\clsLocalDrivingLicenseApp.cs",
@@ -1593,7 +1579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 50,
               "Title": "clsDriverAccess.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsDriverAccess.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\clsDriverAccess.cs",
@@ -1605,7 +1591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 51,
               "Title": "clsTestAppointmentsAccess.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsTestAppointmentsAccess.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\clsTestAppointmentsAccess.cs",
@@ -1617,7 +1603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "clsTestTypesAccess.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsTestTypesAccess.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\clsTestTypesAccess.cs",
@@ -1629,7 +1615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 99,
               "Title": "frmShowLicenseinfo.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmShowLicenseinfo.cs",
               "RelativeDocumentMoniker": "LDLApp\\frmShowLicenseinfo.cs",
@@ -1640,7 +1626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 100,
               "Title": "frmShowLicenseinfo.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmShowLicenseinfo.cs",
               "RelativeDocumentMoniker": "LDLApp\\frmShowLicenseinfo.cs",
@@ -1652,7 +1638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 53,
               "Title": "clsLicenseCardInfo.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsLicenseCardInfo.cs",
               "RelativeDocumentMoniker": "..\\Business\\clsLicenseCardInfo.cs",
@@ -1664,7 +1650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 54,
               "Title": "frmShowPersonDetails.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\People\\frmShowPersonDetails.cs",
               "RelativeDocumentMoniker": "People\\frmShowPersonDetails.cs",
@@ -1675,7 +1661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 134,
               "Title": "ctrlAddUpdatePerson.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\People\\ctrlAddUpdatePerson.cs",
               "RelativeDocumentMoniker": "People\\ctrlAddUpdatePerson.cs",
@@ -1686,7 +1672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 55,
               "Title": "clsApplicationTypesAccess.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsApplicationTypesAccess.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\clsApplicationTypesAccess.cs",
@@ -1698,7 +1684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 135,
               "Title": "ctrlShowPersonInfo.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\People\\ctrlShowPersonInfo.cs",
               "RelativeDocumentMoniker": "People\\ctrlShowPersonInfo.cs",
@@ -1710,7 +1696,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 56,
               "Title": "clsUserAccess.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsUserAccess.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\clsUserAccess.cs",
@@ -1722,7 +1708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 57,
               "Title": "frmAddUpdatePerson.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\People\\frmAddUpdatePerson.cs",
               "RelativeDocumentMoniker": "People\\frmAddUpdatePerson.cs",
@@ -1733,7 +1719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 58,
               "Title": "frmManagePeople.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\People\\frmManagePeople.cs",
               "RelativeDocumentMoniker": "People\\frmManagePeople.cs",
@@ -1744,7 +1730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 59,
               "Title": "clsTestType.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsTestType.cs",
               "RelativeDocumentMoniker": "..\\Business\\clsTestType.cs",
@@ -1756,7 +1742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 60,
               "Title": "clsTest.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsTest.cs",
               "RelativeDocumentMoniker": "..\\Business\\clsTest.cs",
@@ -1768,7 +1754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 98,
               "Title": "frmAddUpdateTestAppointmen.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmAddUpdateTestAppointmen.Designer.cs",
               "RelativeDocumentMoniker": "LDLApp\\frmAddUpdateTestAppointmen.Designer.cs",
@@ -1780,7 +1766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 136,
               "Title": "frmTestAppointments.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\LDLApp\\frmTestAppointments.Designer.cs",
               "RelativeDocumentMoniker": "LDLApp\\frmTestAppointments.Designer.cs",
@@ -1792,7 +1778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 96,
               "Title": "frmManageLDLApp.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmManageLDLApp.cs",
               "RelativeDocumentMoniker": "frmManageLDLApp.cs",
@@ -1804,7 +1790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 97,
               "Title": "frmAddUpdateLDLApp.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmAddUpdateLDLApp.Designer.cs",
               "RelativeDocumentMoniker": "frmAddUpdateLDLApp.Designer.cs",
@@ -1816,7 +1802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 137,
               "Title": "frmApplicationTypes.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmApplicationTypes.cs",
               "RelativeDocumentMoniker": "frmApplicationTypes.cs",
@@ -1827,7 +1813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 138,
               "Title": "ctrlAddUpdatePerson.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\People\\ctrlAddUpdatePerson.cs",
               "RelativeDocumentMoniker": "People\\ctrlAddUpdatePerson.cs",
@@ -1839,7 +1825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 61,
               "Title": "frmAddUpdateUser.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\User\\frmAddUpdateUser.Designer.cs",
               "RelativeDocumentMoniker": "User\\frmAddUpdateUser.Designer.cs",
@@ -1851,7 +1837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 62,
               "Title": "frmAddUpdateUser.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\User\\frmAddUpdateUser.cs",
               "RelativeDocumentMoniker": "User\\frmAddUpdateUser.cs",
@@ -1863,7 +1849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 139,
               "Title": "frmUpdateTestType.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmUpdateTestType.cs",
               "RelativeDocumentMoniker": "frmUpdateTestType.cs",
@@ -1874,7 +1860,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 140,
               "Title": "frmTestTypes.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmTestTypes.cs",
               "RelativeDocumentMoniker": "frmTestTypes.cs",
@@ -1885,7 +1871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 144,
+              "DocumentIndex": 141,
               "Title": "frmUpdateApplicationType.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmUpdateApplicationType.cs",
               "RelativeDocumentMoniker": "frmUpdateApplicationType.cs",
@@ -1896,7 +1882,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 145,
+              "DocumentIndex": 142,
               "Title": "frmTestTypes.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmTestTypes.cs",
               "RelativeDocumentMoniker": "frmTestTypes.cs",
@@ -1908,7 +1894,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 146,
+              "DocumentIndex": 143,
               "Title": "frmUpdateApplicationType.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmUpdateApplicationType.cs",
               "RelativeDocumentMoniker": "frmUpdateApplicationType.cs",
@@ -1920,7 +1906,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 147,
+              "DocumentIndex": 144,
               "Title": "frmUpdateTestType.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmUpdateTestType.cs",
               "RelativeDocumentMoniker": "frmUpdateTestType.cs",
@@ -1932,7 +1918,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 148,
+              "DocumentIndex": 145,
               "Title": "frmUpdateApplicationType.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmUpdateApplicationType.Designer.cs",
               "RelativeDocumentMoniker": "frmUpdateApplicationType.Designer.cs",
@@ -1944,7 +1930,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 72,
               "Title": "frmManagePeople.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmManagePeople.cs",
               "RelativeDocumentMoniker": "frmManagePeople.cs",
@@ -1955,7 +1941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 63,
               "Title": "frmAddUpdatePerson.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\People\\frmAddUpdatePerson.cs",
               "RelativeDocumentMoniker": "People\\frmAddUpdatePerson.cs",
@@ -1967,7 +1953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 73,
               "Title": "frmAddUpdateUser.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmAddUpdateUser.cs",
               "RelativeDocumentMoniker": "frmAddUpdateUser.cs",
@@ -1978,7 +1964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 74,
               "Title": "frmShowPersonDetails.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmShowPersonDetails.cs",
               "RelativeDocumentMoniker": "frmShowPersonDetails.cs",
@@ -1989,7 +1975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 75,
               "Title": "frmManageUsers.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmManageUsers.cs",
               "RelativeDocumentMoniker": "frmManageUsers.cs",
@@ -2000,7 +1986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 76,
               "Title": "frmShowUserInfo.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmShowUserInfo.cs",
               "RelativeDocumentMoniker": "frmShowUserInfo.cs",
@@ -2011,7 +1997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 77,
               "Title": "ctrlAddUpdateUser.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\ctrlAddUpdateUser.cs",
               "RelativeDocumentMoniker": "ctrlAddUpdateUser.cs",
@@ -2022,7 +2008,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 78,
               "Title": "ctrlAddUpdateUser.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\ctrlAddUpdateUser.cs",
               "RelativeDocumentMoniker": "ctrlAddUpdateUser.cs",
@@ -2034,7 +2020,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 79,
               "Title": "ctrlAddUpdatePerson.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\ctrlAddUpdatePerson.cs",
               "RelativeDocumentMoniker": "ctrlAddUpdatePerson.cs",
@@ -2045,7 +2031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 80,
               "Title": "ctrlShowPersonInfo.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\ctrlShowPersonInfo.cs",
               "RelativeDocumentMoniker": "ctrlShowPersonInfo.cs",
@@ -2056,7 +2042,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 81,
               "Title": "frmManageUsers.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmManageUsers.cs",
               "RelativeDocumentMoniker": "frmManageUsers.cs",
@@ -2068,7 +2054,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 82,
               "Title": "frmShowUserInfo.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmShowUserInfo.cs",
               "RelativeDocumentMoniker": "frmShowUserInfo.cs",
@@ -2080,7 +2066,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 83,
               "Title": "ctrlShowPersonInfo.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\ctrlShowPersonInfo.cs",
               "RelativeDocumentMoniker": "ctrlShowPersonInfo.cs",
@@ -2092,7 +2078,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 84,
               "Title": "ctrlUserInfo.cs [Design]",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\ctrlUserInfo.cs",
               "RelativeDocumentMoniker": "ctrlUserInfo.cs",
@@ -2103,7 +2089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 64,
               "Title": "clsCountryData.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsCountryData.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\clsCountryData.cs",
@@ -2115,7 +2101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 85,
               "Title": "ctrlAddUpdatePerson.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\ctrlAddUpdatePerson.Designer.cs",
               "RelativeDocumentMoniker": "ctrlAddUpdatePerson.Designer.cs",
@@ -2127,7 +2113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 86,
               "Title": "frmManagePeople.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmManagePeople.cs",
               "RelativeDocumentMoniker": "frmManagePeople.cs",
@@ -2139,7 +2125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 65,
               "Title": "clsCountry.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Business\\clsCountry.cs",
               "RelativeDocumentMoniker": "..\\Business\\clsCountry.cs",
@@ -2151,7 +2137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 66,
               "Title": "clsDataAccessSettings.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\DataAccess\\clsDataAccessSettings.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\clsDataAccessSettings.cs",
@@ -2163,7 +2149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 87,
               "Title": "frmChangeUserPassword.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmChangeUserPassword.Designer.cs",
               "RelativeDocumentMoniker": "frmChangeUserPassword.Designer.cs",
@@ -2175,7 +2161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 88,
               "Title": "frmChangeUserPassword.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmChangeUserPassword.cs",
               "RelativeDocumentMoniker": "frmChangeUserPassword.cs",
@@ -2187,7 +2173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 150,
               "Title": "frmMainMenue.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmMainMenue.Designer.cs",
               "RelativeDocumentMoniker": "frmMainMenue.Designer.cs",
@@ -2195,12 +2181,11 @@
               "RelativeToolTip": "frmMainMenue.Designer.cs",
               "ViewState": "AgIAADUAAAAAAAAAAADwv0EAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T09:44:57.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T09:44:57.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 89,
               "Title": "ctrlUserInfo.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\ctrlUserInfo.cs",
               "RelativeDocumentMoniker": "ctrlUserInfo.cs",
@@ -2212,7 +2197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 90,
               "Title": "frmAddUpdateUser.resx",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmAddUpdateUser.resx",
               "RelativeDocumentMoniker": "frmAddUpdateUser.resx",
@@ -2223,7 +2208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 91,
               "Title": "frmAddUpdateUser.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmAddUpdateUser.cs",
               "RelativeDocumentMoniker": "frmAddUpdateUser.cs",
@@ -2235,7 +2220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 67,
               "Title": "clsSessoin.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\clsSessoin.cs",
               "RelativeDocumentMoniker": "clsSessoin.cs",
@@ -2247,7 +2232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 92,
               "Title": "frmAddUpdateUser.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmAddUpdateUser.Designer.cs",
               "RelativeDocumentMoniker": "frmAddUpdateUser.Designer.cs",
@@ -2259,7 +2244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 93,
               "Title": "ctrlAddUpdateUser.resx",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\ctrlAddUpdateUser.resx",
               "RelativeDocumentMoniker": "ctrlAddUpdateUser.resx",
@@ -2270,7 +2255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 149,
+              "DocumentIndex": 146,
               "Title": "ctrlPersonPicker.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\People\\ctrlPersonPicker.Designer.cs",
               "RelativeDocumentMoniker": "People\\ctrlPersonPicker.Designer.cs",
@@ -2282,7 +2267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 150,
+              "DocumentIndex": 147,
               "Title": "ctrlPersonPicker.resx",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\People\\ctrlPersonPicker.resx",
               "RelativeDocumentMoniker": "People\\ctrlPersonPicker.resx",
@@ -2293,7 +2278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 94,
               "Title": "frmManageUsers.Designer.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmManageUsers.Designer.cs",
               "RelativeDocumentMoniker": "frmManageUsers.Designer.cs",
@@ -2305,7 +2290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 95,
               "Title": "frmShowPersonDetails.cs",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmShowPersonDetails.cs",
               "RelativeDocumentMoniker": "frmShowPersonDetails.cs",
@@ -2317,7 +2302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 68,
               "Title": "Resources.resx",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "Properties\\Resources.resx",
@@ -2329,7 +2314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 69,
               "Title": "Resources.resx",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "Properties\\Resources.resx",
@@ -2342,7 +2327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 70,
               "Title": "group.png",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\Resources\\group.png",
               "RelativeDocumentMoniker": "Resources\\group.png",
@@ -2353,19 +2338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "frmMainMenue.cs",
-              "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmMainMenue.cs",
-              "RelativeDocumentMoniker": "frmMainMenue.cs",
-              "ToolTip": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\frmMainMenue.cs",
-              "RelativeToolTip": "frmMainMenue.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T20:59:22.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 71,
               "Title": "App.config",
               "DocumentMoniker": "D:\\C#-Projects\\Course-19\\DVLD\\Presentation\\App.config",
               "RelativeDocumentMoniker": "App.config",

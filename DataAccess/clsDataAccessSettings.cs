@@ -9,11 +9,6 @@ namespace DataAccess
 {
     internal class clsDataAccessSettings
     {
-        
-        public static string connectionString 
-        {
-
-            get { return ConfigurationManager.ConnectionStrings["DVLDConnectionString"].ConnectionString; }
-        }
+        public static readonly string connectionString = ConfigurationManager.ConnectionStrings["DVLDConnectionString"].ConnectionString;
     }
 }

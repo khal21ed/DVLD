@@ -56,3 +56,17 @@ The main functionalities of the system work as expected, but the project was not
 
 - I am aware this is an older technology, but I chose it because it provides a simple graphical interface instead of a console-based application.
 - I am currently focusing on web development, but I'm sure that the experience gained from building this project will benefit me in my Web journey.
+
+## Screenshots
+
+### Login Screen
+
+![Login Screen](screenshots/LoginPage.png)
+
+### Dashboard
+
+![Main Screen](Screenshots/MainScreen.png)
+
+### License Management
+
+![Managing License Applications](screenshots/ManagingLocalApplications.png)

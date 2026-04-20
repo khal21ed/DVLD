@@ -91,7 +91,7 @@ namespace Business
                 {
                     if (personBeforeUpdating.ImagePath != ImagePath)
                         File.Delete(personBeforeUpdating.ImagePath);
-                    else//if the the image didn't change then leave the function
+                    else//if the the image didn't change then exit the function
                         return;
                 }
             }

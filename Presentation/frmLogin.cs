@@ -14,6 +14,30 @@ namespace DVLD
 {
     public partial class frmLogin : Form
     {
+    // =====================================================
+// ENTROPY TESTS
+// =====================================================
+
+// Should trigger: High-Signal Entropy Assignment
+string secret = "7fG93ksA92LmP8vQsK2n";
+
+// Should trigger: High-Signal Entropy Assignment
+string token = "Ab8xP92mLsQ8kT1vWzR3";
+
+// Should ideally trigger: MEDIUM entropy
+string key = "abcdef123456abcdef";
+
+// Should ideally trigger: HIGH entropy
+string credential = "mN8zQ2xL9vB7kJ1pR4sT6uW";
+
+// Should trigger: High-Signal Entropy Assignment
+string privateToken = "L8mQ2zX7cV9nB1kR4tY6";
+
+// Same value without keyword context
+string value = "L8mQ2zX7cV9nB1kR4tY6";
+
+// Entropy stress test
+string randomSecret = "aB9xK2mQ7rT5uV8wX1yZ3nP6";
         public frmLogin()
         {
             InitializeComponent();

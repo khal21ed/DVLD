@@ -19,6 +19,20 @@ string placeholder3 = "changeme";
 string placeholder4 = "your_token";
 string placeholder5 = "my_secret";
 string placeholder6 = "example";
+
+        // =====================================================
+// FALSE POSITIVE TESTS (SHOULD NOT TRIGGER)
+// =====================================================
+
+string city = "Nablus";
+string country = "Palestine";
+string username = "Khaled";
+string project = "GitGuard";
+string userId = "12345678901234567890";
+string orderNumber = "98765432109876543210";
+string version = "1.0.0";
+string greeting = "HelloWorld";
+string course = "CENG3544";
         public static string ToSpacedString(this Enum value)
         {
             return Regex.Replace(value.ToString(), "(\\B[A-Z])", " $1");

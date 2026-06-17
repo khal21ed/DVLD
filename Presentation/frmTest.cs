@@ -23,6 +23,17 @@ namespace DVLD
         private void ctrlLicensePicker1_OnLicenseSelected(int obj)
         {
             MessageBox.Show(obj.ToString());
+            // ---------- AWS Access Key (CRITICAL) ----------
+string awsKey = "AKIA1234567890ABCDEF";
+
+// ---------- GitHub PAT (CRITICAL) ----------
+string githubToken = "ghp_abcdefghijklmnopqrstuvwxyz1234567890";
+
+// ---------- Google API Key (CRITICAL) ----------
+string googleKey = "AIzaSyD123456789012345678901234567890123";
+
+// ---------- Stripe Secret Key (CRITICAL) ----------
+string stripeKey = "sk_live_123456789012345678901234567890";
         }
     }
 }

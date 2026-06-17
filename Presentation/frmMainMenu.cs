@@ -27,6 +27,24 @@ namespace DVLD
         //private frmManageInternationalLicenses _frmManageIntLicenses;
         //private frmManageDetaınedLıcenses _frmManageDetainedLicenses;
         //private frmLogin _frmLogin;
+        // ---------- JWT Token (HIGH) ----------
+string jwt = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.abcdefghijk123456789.xyz123456789abcdef";
+
+// ---------- SendGrid API Key (CRITICAL) ----------
+string sendGrid = "SG.1234567890123456789012.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNO123456";
+
+// ---------- Connection String (HIGH) ----------
+string conn = "postgres://admin:SuperSecret123@localhost:5432/mydb";
+
+// ---------- Hardcoded Password (HIGH) ----------
+string password = "MyStrongPassword123";
+
+// ---------- Generic API Key Assignment (HIGH) ----------
+string api_key = "ABCDEF1234567890ABCDEF1234567890";
+
+// ---------- Private Key Header (CRITICAL) ----------
+string privateKeyHeader = "-----BEGIN RSA PRIVATE KEY-----";
+
         public frmMainMenu()
         {
             InitializeComponent();
